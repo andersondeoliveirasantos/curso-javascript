@@ -18,3 +18,8 @@ console.log('Luiz Otávio')
 console.log('Luiz Otávio')
 console.log(`Luiz Otávio`)
 console.log(123456789)
+console.log(
+  'Meu nome é Anderson, e estou aprendendo JavaScript as',
+  22,
+  'horas.'
+)
