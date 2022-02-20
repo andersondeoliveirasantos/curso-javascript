@@ -18,3 +18,4 @@ console.log(
 )
 console.log('Anderson de Oliveira Santos ou Son !!!')
 console.log('Mais um dia chega ao final !!!')
+// Fazeu um anotação para lembrete !!!
