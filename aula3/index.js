@@ -5,6 +5,7 @@ console.log('O professor é o Luiz Otávio Miranda.')
 console.log('Estou adorando o novo curso.')
 console.log('Mais um dia de estudo.')
 console.log('Mais um avanço.')
+// Comment
 console.log('Mais um aprendizado.')
 console.log('É fácil de aprender')
 console.log('Luiz Otávio')
