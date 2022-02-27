@@ -8,3 +8,4 @@ console.log('Maria teve 01 filho com', nome, 'em 2015.')
 console.log('O filho de', nome, 'se chama Eduardo.')
 console.log('Fim da história !!!')
 */
+console.console.log('Alice foi no médico ontem.')
