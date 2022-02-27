@@ -29,6 +29,6 @@ console.log(
   anoNascimento
 )
 
-console.log(
-  '${nome} ${sobrenome} tem ${idade} anos, pesa ${peso} kg, tem ${alturaEmM} de altura e seu IMC é de ${imc} ${Anderson} nasceu em ${anoNascimento}'
-)
+console.log('${nome} ${sobrenome} tem ${idade} anos, pesa ${peso} kg')
+console.log('tem ${alturaEmM} de altura e seu IMC é de ${imc}')
+console.log('${nome} nasceu em ${anoNascimento}.')
