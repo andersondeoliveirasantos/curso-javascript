@@ -7,9 +7,12 @@ const nome = 'Anderson'
 const sobrenome = ' de Oliveira Santos'
 const idade = 40
 const peso = 92
-const altura = 1.86
+const alturaEmM = 1.86
 let imc // PESO / (ALTURA * ALTURA)
 let anoNascimento
+
+imc = peso / (alturaEmM * alturaEmM)
+anoNascimento = 2022 - idade
 
 console.log(
   nome + sobrenome,
@@ -18,7 +21,10 @@ console.log(
   'anos, pesa ',
   peso,
   'kg, tem ',
-  altura,
+  alturaEmM,
   'de altura e seu IMC é ',
-  peso / (altura * altura)
+  peso / (alturaEmM * alturaEmM),
+  nome,
+  'nasceu em',
+  anoNascimento
 )
