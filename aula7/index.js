@@ -9,3 +9,13 @@
 
 const nome = 'Anderson'
 console.log(nome)
+
+const primeiroNome = 5
+const segundoNome = 10
+const resultado = primeiroNome * segundoNome
+const resultadoDuplicado = resultado * 2
+
+console.log(resultado)
+console.log(resultadoDuplicado)
+
+console.log(typeof primeiroNome)
