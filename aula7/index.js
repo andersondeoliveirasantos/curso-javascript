@@ -1,7 +1,7 @@
-// Regras básicas das variáveis !!!
+// Regras básicas das Constantes !!!
 // Não podemos criar constantes com palavras reservadas.
 // Constantes precisam ter nomes significativos.
-// Não pode começas o nome de uma constante com número.
+// Não podemos começar o nome de uma constante com número.
 // Utilizamos camelCase ( letras maiúsculas e minúscula, sem espaços).
 // Case-sensitive.
 // Não pode modificar o valor de uma constante.
