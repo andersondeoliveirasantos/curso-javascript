@@ -16,15 +16,19 @@ anoNascimento = 2022 - idade
 
 console.log(
   nome + sobrenome,
-  'tem ',
+  'tem',
   idade,
-  'anos, pesa ',
+  'anos, pesa',
   peso,
-  'kg, tem ',
+  'kg, tem',
   alturaEmM,
-  'de altura e seu IMC é ',
+  'de altura e seu IMC é',
   peso / (alturaEmM * alturaEmM),
   nome,
   'nasceu em',
   anoNascimento
+)
+
+console.log(
+  '${nome} ${sobrenome} tem ${idade} anos, pesa ${peso} kg, tem ${alturaEmM} de altura e seu IMC é de ${imc} ${Anderson} nasceu em ${anoNascimento}'
 )
