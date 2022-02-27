@@ -1,4 +1,4 @@
-// String, number, undefined, null, boolean
+// String, number, undefined, null, boolean, symbol
 
 var nome = 'Anderson'
 var nome = 'de Oliveira Santos'
