@@ -8,13 +8,20 @@ console.log('Maria teve 01 filho com', nome, 'em 2015.')
 console.log('O filho de', nome, 'se chama Eduardo.')
 console.log('Fim da história !!!')
 */
-console.console.log('Alice foi no médico ontem.')
+console.log('Alice foi no médico ontem.')
 
 // Regras básicas das variáveis !!!
 // Não podemos criar variáveis com palavras reservadas.
 // Variáveis precisam ter nomes significativos.
 // Não pode começas o nome de uma variável com número.
 // Utilizamos camelCase ( letras maiúsculas e minúscula, sem espaços).
+// Não podemos redeclarar variáveis com let
+
 //Case-sensitive exemplo:
-let nomeCliente = Anderson
-let nomecliente = Olliver
+
+let nomeCliente = 'Anderson'
+let nomecliente = 'Olliver'
+
+console.log(nomeCliente, nomecliente)
+
+// Não utilize VAR, utilize LET !!!
