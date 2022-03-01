@@ -8,15 +8,22 @@
 * ( Multiplicação )  
 ** (Potenciação)
 % (Resto da divisão)
-*/
-/*
+_________________________________________________________
 
 ORDEM DE PRECEDÊNCIA !!!
 () > Parenteses
 ** > Potenciação
 * / % > Multiplicação > Divisão > Módulo da divisão
 + - > Adição > Subtração
+_________________________________________________________
 
+OPERADORES DE INCREMENTO
+
+++ = Incremento
+-- = Decremento
+
+Pre-Incremento (Só muda a posição)
+Pós-Decremento (Só muda a posição)
 
 */
 
