@@ -9,9 +9,7 @@ nome = 'Anderson' // NÃO FAÇA ISSO
 // Dessa forma, você está criando uma variável GLOBAL, isso pode impactar o seu códico de diversas formas.
 
 const nome = 'Anderson' // string
-
 const nome = 'Anderson' // string
-
 const nome = `Anderson` // string
 
 const num1 = 10 // number
