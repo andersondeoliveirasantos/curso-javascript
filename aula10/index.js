@@ -46,3 +46,21 @@ contador++ // 3
 ++contador // 4
 ++contador // 5
 console.log(contador)
+
+const passo = 5
+let contar = 0
+
+contar = contar + passo
+console.log(contar)
+contar = contar + passo
+console.log(contar)
+contar = contar + passo
+console.log(contar)
+
+const passo2 = 50
+let contar2 = 0
+
+contar2 += passo2
+contar2 += passo2
+contar2 += passo2
+console.log(contar2)
