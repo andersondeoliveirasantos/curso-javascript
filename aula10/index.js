@@ -67,3 +67,12 @@ contar2 += passo2
 console.log(contar2)
 
 // NaN - Not a number
+
+const num10 = 10
+const num11 = parseInt('5') // Converter uma String em número e me retorna um valor numérico -> Números Inteiro
+const num12 = parseFloat(5.2) // Números decimais
+const num13 = 7.7 // Sem distição, entre Números Inteiros e Números Decimais
+
+console.log(num10 * num11)
+console.log(typeof num11)
+console.log(num10 + num12)
