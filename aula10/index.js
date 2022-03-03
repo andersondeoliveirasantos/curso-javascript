@@ -57,6 +57,7 @@ console.log(contar)
 contar = contar + passo
 console.log(contar)
 
+// Operadores de atribuição
 const passo2 = 50
 let contar2 = 0
 
@@ -64,3 +65,5 @@ contar2 += passo2
 contar2 += passo2
 contar2 += passo2
 console.log(contar2)
+
+// NaN - Not a number
