@@ -7,3 +7,6 @@ window.confirm('Deseja realmente apagar ???')
 
 prompt('Anderson de Oliveira Santos')
 window.prompt('And Olliver ...')
+
+const num21 = prompt('Digite um número !!!')
+const num22 = prompt('Digite outro número !!!')
