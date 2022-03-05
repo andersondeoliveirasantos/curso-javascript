@@ -1,7 +1,2 @@
 alert('Tudo tranquilo ??? ')
-alert('Tudo errado !!!')
-alert('Cabeça na Lua ...')
-alert('Acertar as coisas ...')
-alert('Virando a noite !!!')
-alert('Não consigo dormir ...')
 alert('Sou um programador !!!')
