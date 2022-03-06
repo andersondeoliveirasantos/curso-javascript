@@ -15,4 +15,4 @@ let num22 = prompt('Digite outro número !!!')
 num21 = Number(num21)
 num22 = Number(num22)
 
-console.log(num21 + num22)
+alert(`O resultado da sua conta foi: ${num21 + num22}`)
