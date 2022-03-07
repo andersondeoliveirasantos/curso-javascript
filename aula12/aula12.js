@@ -10,3 +10,4 @@ varC = varATemp
 ;[varA, varB, varC] = [varB, varC, varA]
 
 console.log(varA, varB, varC)
+console.log(varC, varB, varA)
