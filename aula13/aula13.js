@@ -20,3 +20,6 @@ console.log(umaString.replace(/r/g, '#'))
 console.log(umaString.length) // Verifica o tamanho da string
 
 console.log(umaString.split('r'))
+console.log(umaString.split(' ', 3))
+
+console.log(umaString)
