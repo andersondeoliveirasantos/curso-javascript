@@ -24,3 +24,4 @@ console.log(umaString.split(' ', 3))
 
 console.log(umaString)
 console.log(umaString)
+console.log(umaString)
