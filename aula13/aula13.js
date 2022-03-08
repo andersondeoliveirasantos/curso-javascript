@@ -2,11 +2,11 @@ let umaString = 'O rato roeu a roupa do rei de Roma !!!'
 
 console.log(umaString)
 
-console.log(umaString[4])
+console.log(umaString[4]) // Posições das letras
 console.log(umaString[13])
 console.log(umaString[-3])
 
-console.log(`${umaString} em um lindo dia.`)
+console.log(`${umaString} em um lindo dia.`) // Concatenação
 
 console.log(umaString.indexOf('o'))
 console.log(umaString.lastIndexOf('x'))
@@ -18,3 +18,5 @@ console.log(umaString.replace(/r/, '#'))
 console.log(umaString.replace(/r/g, '#'))
 
 console.log(umaString.length) // Verifica o tamanho da string
+
+console.log(umaString.split('r'))
