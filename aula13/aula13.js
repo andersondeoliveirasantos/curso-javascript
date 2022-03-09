@@ -6,6 +6,7 @@ console.log(umaString[4]) // Posições das letras
 console.log(umaString[13])
 console.log(umaString[-3])
 console.log(umaString[7])
+console.log(umaString[1])
 
 console.log(`${umaString} em um lindo dia.`) // Concatenação
 
