@@ -11,6 +11,7 @@ console.log(umaString[1])
 console.log(`${umaString} em um lindo dia.`) // Concatenação
 
 console.log(umaString.indexOf('o'))
+console.log(umaString.indexOf('a'))
 console.log(umaString.lastIndexOf('x'))
 
 console.log(umaString.match(/[a-z]/g)) // Expressão Regular
