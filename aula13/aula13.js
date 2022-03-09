@@ -18,6 +18,7 @@ console.log(umaString.match(/[a-z]/g)) // Expressão Regular
 
 console.log(umaString.replace('Um', 'Outro'))
 console.log(umaString.replace(/r/, '#'))
+console.log(umaString.replace(/o/, 'O'))
 console.log(umaString.replace(/r/g, '#'))
 
 console.log(umaString.length) // Verifica o tamanho da string
