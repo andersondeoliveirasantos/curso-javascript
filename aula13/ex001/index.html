@@ -9,15 +9,25 @@
   <body>
     <script>
       const nome = prompt('Digite o seu nome completo:')
-      document.body.innerHTML += `O seu nome é: ${nome}<br/>`
-      document.body.innerHTML += `Seu nome tem ${nome} letras. <br/>`
-      document.body.innerHTML += `A segunda letra do meu nome é: ${nome} <br/>`
-      document.body.innerHTML += `Qual o primeiro índice da letra ${nome} no seu nome? <br/>`
-      document.body.innerHTML += `Qual o último índece da letra ${nome} no seu nome? <br/>`
-      document.body.innerHTML += `As últimas 03 letras do seu nome são: ${nome} <br/>`
-      document.body.innerHTML += `As palavras do seu nome são: ${nome} <br/>`
-      document.body.innerHTML += `Seu nome com as letras maiúsculas: ${nome} <br/>`
-      document.body.innerHTML += `Seu nome com letras minúsculas: ${nome} <br/>`
+      document.body.innerHTML += `O seu nome é: <strong>${nome}</strong><br/>`
+      document.body.innerHTML += `Seu nome tem <strong>${nome.length}</strong> letras. <br/>`
+      document.body.innerHTML += `A segunda letra do meu nome é: <strong>${nome.charAt(
+        2
+      )}</strong> <br/>`
+      document.body.innerHTML += `Qual o primeiro índice da letra <strong>${nome.indexOf(
+        'A'
+      )}</strong> no seu nome? <br/>`
+      document.body.innerHTML += `Qual o último índece da letra <strong>${nome.lastIndexOf(
+        'a'
+      )}</strong> no seu nome? <br/>`
+      document.body.innerHTML += `As últimas 03 letras do seu nome são: <strong>${nome.slice(
+        -3
+      )}</strong><br/>`
+      document.body.innerHTML += `As palavras do seu nome são: <strong>${nome.split(
+        ' '
+      )}</strong> <br/>`
+      document.body.innerHTML += `Seu nome com as letras maiúsculas: <strong>${nome.toUpperCase()}<strong/> <br/>`
+      document.body.innerHTML += `Seu nome com letras minúsculas: <strong>${nome.toLowerCase()}</strong> <br/>`
     </script>
   </body>
 </html>
