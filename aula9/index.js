@@ -10,7 +10,7 @@ nome = 'Anderson' // NÃO FAÇA ISSO
 
 const nome = 'Anderson' // string
 const nome = 'Anderson' // string
-const nome = `Anderson` // string
+const nome = `Anderson` // string mais usada
 
 const num1 = 10 // number
 const num2 = 10.52 // number
@@ -21,3 +21,4 @@ let sobrenomeAluno = null // Nulo -> não aponta para local nenhum na memória
 const boolean = false // FALSO ou VERDADEIRO
 
 console.log(typeof nome, nome) // verificar o tipo e/ou do conteúdo da linha
+
