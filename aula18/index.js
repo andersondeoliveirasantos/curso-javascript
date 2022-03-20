@@ -22,7 +22,9 @@ console.log(
   `A segunda candidata é a ${nome02} ${sobrenome02}, que tem a idade de ${idade02} anos.`
 )
 */
+___________________________________________________________________________
 
+/*
 const pessoa1 = {
   nome: 'Anderson',
   sobrenome: 'de Oliveira SAntos',
@@ -42,3 +44,31 @@ const pessoa2 = {
 console.log(pessoa2.nome)
 console.log(pessoa2.sobrenome)
 console.log(pessoa2.idade)
+*/
+___________________________________________________________________________
+
+/*
+function criaPessoa (nome, sobrenome, idade) {
+  return { nome, sobrenome, idade };
+}
+
+const pessoa1 = criaPessoa('Anderson', 'de Oliveira Santos', 40);
+const pessoa2 = criaPessoa('Daniela Cristina', 'da Silva de Oliveira', 35);
+const pessoa3 = criaPessoa('Alice', 'Silva de Oliveira', 5);
+const pessoa4 = criaPessoa('Tomaz', 'Rodrigues da Silva'; 76);
+const pessoa5 = criaPessoa('Narny', 'de Oliveira Santos', 66);
+
+console.log(pessoa1.nome, pessoa2.nome)
+*/
+
+const pessoa1 = {
+  nome: 'Anderson',
+  sobrenome: 'de Oliveira Santos',
+  idade: 40,
+
+  fala() {
+    console.log('Hello Word');
+  }
+};
+
+pessoa1.fala():
