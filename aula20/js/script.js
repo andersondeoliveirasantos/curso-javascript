@@ -9,9 +9,11 @@ function meuEscopo() {
   }
   */
 
-  function receberEventoForm(evento) {
-    evento.preventDeFault()
-    console.log('Form não foi enviado')
+  let contador = 1
+  function recebeEventoForm(evento) {
+    evento.preventDefault()
+    console.log(`Form não foi enviado ${contador}`)
+    contador++
   }
 
   form.addEventListener('Submit', receberEventoForm)
