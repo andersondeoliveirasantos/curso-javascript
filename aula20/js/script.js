@@ -8,6 +8,12 @@ function meuEscopo() {
     console.log('Foi enviado')
   }
   */
- form.addEventListener()
+
+  function receberEventoForm(evento) {
+    evento.preventDeFault()
+    console.log('Form não foi enviado')
+  }
+
+  form.addEventListener('Submit', receberEventoForm)
 }
 meuEscopo()
