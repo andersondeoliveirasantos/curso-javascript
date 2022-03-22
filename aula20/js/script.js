@@ -8,5 +8,6 @@ function meuEscopo() {
     console.log('Foi enviado')
   }
   */
+ form.addEventListener()
 }
 meuEscopo()
