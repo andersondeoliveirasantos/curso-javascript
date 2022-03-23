@@ -6,7 +6,6 @@ function meuEscopo() {
     evento.preventDefault()
     alert('Realemte deseja emviar?')
     console.log('Foi enviado')
-    console.log('Foi enviado')
   }
   */
 
