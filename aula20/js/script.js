@@ -8,7 +8,6 @@ function meuEscopo() {
     console.log('Foi enviado')
   }
   */
-  ...
   let contador = 1
   function recebeEventoForm(evento) {
     evento.preventDefault()
