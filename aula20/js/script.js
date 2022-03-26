@@ -5,7 +5,7 @@ function meuEscopo() {
   form.onsubmit = function (evento) {
     evento.preventDefault()
     alert('Realemte deseja emviar?')
-    console.log('Foi enviado')
+    console.log('Os dados foram enviado')
   }
   */
   let contador = 1
