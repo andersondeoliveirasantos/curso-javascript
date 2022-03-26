@@ -1,5 +1,6 @@
 function meuEscopo() {
   const form = document.querySelector('.form')
+  const resultado = document.querySelector('.resultado')
 
   function recebeEventoForm(evento) {
     evento.preventDefault()
@@ -9,7 +10,7 @@ function meuEscopo() {
     const peso = form.querySelector('.peso')
     const altura = form.querySelector('.altura')
 
-    console.log(nome, sobrenome, peso, altura)
+    console.log(nome.value, sobrenome, peso, altura)
   }
 
   form.addEventListener('Submit', receberEventoForm)
