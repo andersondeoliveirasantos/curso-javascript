@@ -32,3 +32,5 @@ if (numero >= 0 && numero <= 5) {
 }
 
 console.log('...Aqui vem o resto do código.')
+
+//*******************************************************//
