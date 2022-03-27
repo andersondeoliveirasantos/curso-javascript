@@ -45,7 +45,7 @@ console.log(corPadrao)
 
 const a = 0
 const b = null
-const c = 'false'
+const c = 'false' // É uma string, está entre '', string é avaliada como true 
 const d = false
 const e = NaN
 
