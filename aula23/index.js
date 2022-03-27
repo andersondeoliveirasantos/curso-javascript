@@ -34,18 +34,18 @@ console.log(vaiExecutar && falaOi())
 
 console.log(0 || null || 'Anderson de Oliveira' || true)
 
---------------------------------------------------------------
+// Outra função
 
 const corUsuario = null
 const corPadrao = corUsuario || 'preto'
 
 console.log(corPadrao)
 
---------------------------------------------------------------
+// Outra função
 
 const a = 0
 const b = null
-const c = 'false' // É uma string, está entre '', string é avaliada como true 
+const c = 'false' // É uma string, está entre '', string é avaliada como true
 const d = false
 const e = NaN
 
