@@ -26,6 +26,6 @@ function meuEscopo() {
       `${peso.value} ${altura.value}</p>`
   }
 
-  form.addEventListener('submit', receberEventoForm)
+  form.addEventListener('submit', recebeEventoForm)
 }
 meuEscopo()
