@@ -53,3 +53,11 @@ form button {
   cursor: pointer;
   margin-top: 30px;
 }
+
+form button:hover {
+  background: var(--primary-color);
+}
+
+.paragrafo-resultado {
+  background: #fff;
+}
