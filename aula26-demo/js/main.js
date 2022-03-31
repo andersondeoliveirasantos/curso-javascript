@@ -7,11 +7,14 @@ form.addEventListener('submit', function (e) {
   setResultado('Hello World !!!')
 })
 
+function criaP () {
+  const p: HTMLParagraphElement nt('p')
+  p.classList.add('paragafo-resultado')
+  p.innerHTML = 'Qualquer coisa'
+}
+
 function setResultado(msg) {
   const resultado = document.querySelector('#resultado')
   resultado.innerHTML = ''
-  const p = document.createElement('p')
-  p.classList.add('paragrafo-resultado')
-  p.innerHTML = 'Qualquer coisa'
   resultado.appendChild(p)
 }
