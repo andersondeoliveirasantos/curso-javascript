@@ -10,12 +10,15 @@
   <body>
     <section class="container">
     <h1>Calcule o seu IMC</h1>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, tenetur
-      pariatur! Repellat recusandae consectetur corporis dolores alias natus
-      possimus atque incidunt labore fugiat, quis voluptas exercitationem amet
-      laborum sequi quasi.
-    </p>
+    <form action="/" id="form" method="POST">
+      <label for="peso">Peso</label>
+      <input type="text" id="peso" name="peso" />
+
+      <label for="altura">Altura</label>
+      <input type="text" id="altura" name="altura" />
+
+      <button type="submit">Enviar</button>
+    </form>
     </section>
     </form>
     <script src="./assets/js/main.js"></script>
