@@ -7,6 +7,12 @@ form.addEventListener('submit', function (e) {
   setResultado('Hello World !!!')
 })
 
+if (peso) {
+  //
+} else {
+  // dfgg
+}
+
 function criaP () {
   const p: HTMLParagraphElement nt('p')
   p.classList.add('paragafo-resultado')
