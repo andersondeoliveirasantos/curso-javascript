@@ -21,6 +21,6 @@ function criaP () {
 
 function setResultado(msg) {
   const resultado = document.querySelector('#resultado')
-  resultado.innerHTML = ''
+  resultado.innerHTML = msg
   resultado.appendChild(p)
 }
