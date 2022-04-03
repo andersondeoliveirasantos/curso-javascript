@@ -8,4 +8,5 @@
 
 // const data = new Date(2022, 3, 20, 15, 14, 27, 500) // Ano, Mês, Dia, Hora, Minuto, Segundo, Milésimo de Segundo
 
+const data = new Date('2019-04-20 20:20:59')
 console.log(data.toISOString())
