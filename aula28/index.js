@@ -24,8 +24,9 @@ console.log(Date.now())
 */
 
 function formataData(data) {
-  console.log(data)
+  // console.log(data)
 }
 
 const data = new Date()
-formataData(data)
+const dataBrasil = formataData(data)
+console.log(dataBrasil)
