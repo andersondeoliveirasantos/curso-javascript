@@ -8,6 +8,7 @@
 
 // const data = new Date(2022, 3, 20, 15, 14, 27, 500) // Ano, Mês, Dia, Hora, Minuto, Segundo, Milésimo de Segundo
 
+/*
 const data = new Date('2019-04-20 20:15:59')
 console.log('Dia', data.getDate())
 console.log('Mês', data.getMonth() + 1) // Mês começa do zero
@@ -20,6 +21,7 @@ console.log('Dia da semana', data.getDay()) // 0 - Domingo e 6 - Sábado
 
 console.log(data.toISOString())
 console.log(Date.now())
+*/
 
 function formataData(data) {
   console.log(data)
