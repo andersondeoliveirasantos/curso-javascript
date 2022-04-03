@@ -10,11 +10,12 @@
 
 const data = new Date('2019-04-20 20:20:59')
 console.log('Dia', data.getDate())
-console.log('Dia', data.getDate())
-console.log('Dia', data.getDate())
-console.log('Dia', data.getDate())
-console.log('Dia', data.getDate())
-console.log('Dia', data.getDate())
-console.log('Dia', data.getDate())
+console.log('Mês', data.getDate())
+console.log('Ano', data.getDate())
+console.log('Hora', data.getDate())
+console.log('Minuto', data.getDate())
+console.log('Segundo', data.getDate())
+console.log('Dia da semana', data.getDate())
+console.log('Milésimo de Segundo', data.getDate())
 
 console.log(data.toISOString())
