@@ -19,3 +19,5 @@ console.log('Milésimo de Segundo', data.getMilliseconds())
 console.log('Dia da semana', data.getDay()) // 0 - Domingo e 6 - Sábado
 
 console.log(data.toISOString())
+
+console.log(Date.now())
