@@ -1,8 +1,9 @@
-const data = new Date()
-const diaSemana = data.getDay()
+const data = new Date('1987-04-21 00:00:00')
+let diaSemana = data.getDay()
 diaSemana = 7
 let diaSemanaTexto
 
+/*
 if (diaSemana === 0) {
   diaSemanaTexto = 'Domingo'
 } else if (diaSemana === 1) {
@@ -22,3 +23,4 @@ if (diaSemana === 0) {
 }
 
 console.log(diaSemana, diaSemanaTexto)
+*/
