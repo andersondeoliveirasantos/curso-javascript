@@ -1,7 +1,18 @@
-const data = new Date('1987-04-20 00:00:00')
+function getDiaSemanaTexto () {
+  let diaSemanaTexto
+
+  switch (diaSemana) {
+    case 0
+      diaSemanaTexto = 'Domingo'
+      return diaSemanaTexto
+
+  }
+}
+
+const data = new Date('1987-04-26 00:00:00')
 let diaSemana = data.getDay()
-// diaSemana = 7
-let diaSemanaTexto
+
+console.log(diaSemana, diaSemanaTexto)
 
 /* *****************************************
  ************ SWITCH e CASE ********************
