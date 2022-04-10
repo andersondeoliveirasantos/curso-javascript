@@ -1,32 +1,31 @@
-const data = new Date('1987-04-21 00:00:00')
+const data = new Date('1987-04-26 00:00:00')
 let diaSemana = data.getDay()
-diaSemana = 7
 let diaSemanaTexto
 
 switch (diaSemana) {
   case 0:
-    diaSemana = 'Domingo'
+    diaSemanaTexto = 'Domingo'
     break
   case 1:
-    diaSemana = 'Segunda'
+    diaSemanaTexto = 'Segunda'
     break
   case 2:
-    diaSemana = 'Terça'
+    diaSemanaTexto = 'Terça'
     break
   case 3:
-    diaSemana = 'Quarta'
+    diaSemanaTexto = 'Quarta'
     break
   case 4:
-    diaSemana = 'Quinta'
+    diaSemanaTexto = 'Quinta'
     break
   case 5:
-    diaSemana = 'Sexta'
+    diaSemanaTexto = 'Sexta'
     break
-  case 0:
-    diaSemana = 'Sábado'
+  case 6:
+    diaSemanaTexto = 'Sábado'
     break
   default:
-    break
+    diaSemana = ''
 }
 
 /*
