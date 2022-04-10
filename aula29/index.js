@@ -1,6 +1,6 @@
 const data = new Date('1987-04-26 00:00:00')
 let diaSemana = data.getDay()
-diaSemana = 7
+// diaSemana = 7
 let diaSemanaTexto
 
 switch (diaSemana) {
@@ -26,8 +26,11 @@ switch (diaSemana) {
     diaSemanaTexto = 'Sábado'
     break
   default:
-    diaSemanaTexto = ''
+    diaSemanaTexto = 'Não encontrado valor'
+    break
 }
+
+console.log(diaSemana, diaSemanaTexto)
 
 /*
 if (diaSemana === 0) {
