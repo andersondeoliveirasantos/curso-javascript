@@ -28,6 +28,9 @@ function getDiaSemanaTexto(diaSemana) {
 
 const data = new Date('1987-04-26 00:00:00')
 let diaSemana = data.getDay()
+const diaSemanaTexto = getDiaSemanaTexto(diaSemana)
+
+console.log(diaSemana, diaSemanaTexto)
 
 /* *****************************************
  ************ SWITCH e CASE ********************
