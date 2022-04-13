@@ -4,19 +4,25 @@ function getDiaSemanaTexto (diaSemana ) {
   switch (diaSemana) {
   case 0
     diaSemanaTexto = 'Sunday'
-      return diaSemanaTexto
+    return diaSemanaTexto
   case 1
     diaSemanaTexto = 'Monday'
+    return diaSemanaTexto
   case 2
     diaSemanaTexto = 'Tuesday'
+    return diaSemanaTexto
   case 3
     diaSemanaTexto = 'Wednesday'
+    return diaSemanaTexto
   case 4 
     diaSemanaTexto = 'Thursday'
+    return diaSemanaTexto
   case 5 
     diaSemanaTexto = 'Friday'
+    return diaSemanaTexto
   case 6 
     diaSemanaTexto = 'Saturday'
+    return diaSemanaTexto
   }
 }
 
