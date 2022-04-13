@@ -1,36 +1,36 @@
-function getDiaSemanaTexto(diaSemana) {
-  let diaSemanaTexto
+function getDayWeekTest(dayWeek) {
+  let dayWeekTest
 
-  switch (diaSemana) {
+  switch (dayWeek) {
     case 0:
-      diaSemanaTexto = 'Sunday'
-      return diaSemanaTexto
+      dayWeekTest = 'Sunday'
+      return dayWeekTest
     case 1:
-      diaSemanaTexto = 'Monday'
-      return diaSemanaTexto
+      dayWeekTest = 'Monday'
+      return dayWeekTest
     case 2:
-      diaSemanaTexto = 'Tuesday'
-      return diaSemanaTexto
+      dayWeekTest = 'Tuesday'
+      return dayWeekTest
     case 3:
-      diaSemanaTexto = 'Wednesday'
-      return diaSemanaTexto
+      dayWeekTest = 'Wednesday'
+      return dayWeekTest
     case 4:
-      diaSemanaTexto = 'Thursday'
-      return diaSemanaTexto
+      dayWeekTest = 'Thursday'
+      return dayWeekTest
     case 5:
-      diaSemanaTexto = 'Friday'
-      return diaSemanaTexto
+      dayWeekTest = 'Friday'
+      return dayWeekTest
     case 6:
-      diaSemanaTexto = 'Saturday'
-      return diaSemanaTexto
+      dayWeekTest = 'Saturday'
+      return dayWeekTest
   }
 }
 
 const data = new Date('1987-04-26 00:00:00')
-let diaSemana = data.getDay()
-const diaSemanaTexto = getDiaSemanaTexto(diaSemana)
+let dayWeek = data.getDay()
+const dayWeekTest = getDayWeekTest(dayWeek)
 
-console.log(diaSemana, diaSemanaTexto)
+console.log(dayWeek, dayWeekTest)
 
 /* *****************************************
  ************ SWITCH e CASE ********************
