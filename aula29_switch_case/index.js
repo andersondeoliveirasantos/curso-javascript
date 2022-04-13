@@ -1,11 +1,22 @@
-function getDiaSemanaTexto () {
+function getDiaSemanaTexto (diaSemana ) {
   let diaSemanaTexto
 
   switch (diaSemana) {
     case 0
-      diaSemanaTexto = 'Domingo'
+      diaSemanaTexto = 'Sunday'
       return diaSemanaTexto
-
+    case 1
+      diaSemanaTexto = 'Monday'
+    case 2
+      diaSemanaTexto = 'Tuesday'
+    case 3
+      diaSemanaTexto = 'Wednesday'
+    case 4 
+      diaSemanaTexto = 'Thursday'
+    case 5 
+      diaSemanaTexto = 'Friday'
+    case 6 
+      diaSemanaTexto = 'Saturday'
   }
 }
 
