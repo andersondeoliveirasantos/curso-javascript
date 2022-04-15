@@ -1,34 +1,34 @@
 const h1 = document.querySelector('.container h1')
 const data = new Date()
 
-function getDayWeekTest(dayWeek) {
-  let dayWeekTest
+function getDayWeekTest(diaSemana) {
+  let diaSemanaTexto
 
-  switch (dayWeek) {
+  switch (diaSemana) {
     case 0:
-      dayWeekTest = 'Sunday'
-      return dayWeekTest
+      diaSemanaTexto = 'Sunday'
+      return diaSemanaTexto
     case 1:
-      dayWeekTest = 'Monday'
-      return dayWeekTest
+      diaSemanaTexto = 'Monday'
+      return diaSemanaTexto
     case 2:
-      dayWeekTest = 'Tuesday'
-      return dayWeekTest
+      diaSemanaTexto = 'Tuesday'
+      return diaSemanaTexto
     case 3:
-      dayWeekTest = 'Wednesday'
-      return dayWeekTest
+      diaSemanaTexto = 'Wednesday'
+      return diaSemanaTexto
     case 4:
-      dayWeekTest = 'Thursday'
-      return dayWeekTest
+      diaSemanaTexto = 'Thursday'
+      return diaSemanaTexto
     case 5:
-      dayWeekTest = 'Friday'
-      return dayWeekTest
+      diaSemanaTexto = 'Friday'
+      return diaSemanaTexto
     case 6:
-      dayWeekTest = 'Saturday'
-      return dayWeekTest
+      diaSemanaTexto = 'Saturday'
+      return diaSemanaTexto
     default:
-      dayWeekTest = ''
-      return dayWeekTest
+      diaSemanaTexto = ''
+      return diaSemanaTexto
   }
 }
 
