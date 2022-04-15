@@ -15,7 +15,23 @@ for (let i = 0; i <= 500; i += 10) {
 }
 */
 
+/*
 // DECRESENTE
 for (let i = 500; i >= 400; i -= 10) {
   console.log(`Line ${i}`)
+}
+*/
+
+/*
+for (let i = 0; i <= 10; i++) {
+  const par = i % 2 === 0 ? 'par' : 'impar'
+  console.log(i, par)
+}
+*/
+
+//                 0       1      2
+const fruits = ['Maçã', 'Pêra', 'Uva']
+
+for (let i = 0; i < fruits.length; i++) {
+  console.log(i)
 }
