@@ -28,7 +28,7 @@ function getDayWeekTest(dayWeek) {
       return dayWeekTest
   }
 }
-
+/*
 function getNameMonth(numberMonth) {
   let nameMonth
 
@@ -37,24 +37,39 @@ function getNameMonth(numberMonth) {
       nameMonth = 'January'
       return nameMonth
     case 1:
-      dayWeekTest = 'Monday'
-      return dayWeekTest
+      nameMonth = 'February'
+      return nameMonth
     case 2:
-      dayWeekTest = 'Tuesday'
-      return dayWeekTest
+      nameMonth = 'March'
+      return nameMonth
     case 3:
-      dayWeekTest = 'Wednesday'
-      return dayWeekTest
+      nameMonth = 'April'
+      return nameMonth
     case 4:
-      dayWeekTest = 'Thursday'
-      return dayWeekTest
+      nameMonth = 'May'
+      return nameMonth
     case 5:
-      dayWeekTest = 'Friday'
-      return dayWeekTest
+      nameMonth = 'June'
+      return nameMonth
     case 6:
-      dayWeekTest = 'Saturday'
-      return dayWeekTest
+      nameMonth = 'July'
+      return nameMonth
+    case 7:
+      nameMonth = 'August'
+      return nameMonth
+    case 8:
+      nameMonth = 'Setember'
+      return nameMonth
+    case 9:
+      nameMonth = 'October'
+      return nameMonth
+    case 10:
+      nameMonth = 'November'
+      return nameMonth
+    case 11:
+      nameMonth = 'December'
+      return nameMonth
   }
 }
-
+*/
 h1.innerHTML = getDayWeekTest(data.getDay())
