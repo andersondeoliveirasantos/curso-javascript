@@ -26,9 +26,12 @@ function getDayWeekTest(dayWeek) {
     case 6:
       dayWeekTest = 'Saturday'
       return dayWeekTest
+    default:
+      dayWeekTest = ''
+      return dayWeekTest
   }
 }
-/*
+
 function getNameMonth(numberMonth) {
   let nameMonth
 
@@ -71,5 +74,10 @@ function getNameMonth(numberMonth) {
       return nameMonth
   }
 }
-*/
+
+function createDate(date) {
+  const dayWeek = data.getDay()
+  const numberMonth = data.getMonth
+}
+
 h1.innerHTML = getDayWeekTest(data.getDay())
