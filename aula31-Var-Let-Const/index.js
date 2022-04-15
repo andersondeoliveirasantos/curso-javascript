@@ -1,3 +1,4 @@
+var sobrenome
 const verdadeira = true
 
 /*
@@ -32,6 +33,5 @@ function falaOi() {
 falaOi()
 */
 
+sobrenome = 'Oliveira Santos'
 console.log(sobrenome)
-
-var sobrenome = 'Oliveira Santos'
