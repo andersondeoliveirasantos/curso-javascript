@@ -1,7 +1,7 @@
 const h1 = document.querySelector('.container h1')
 const data = new Date()
 
-function getDayWeekTest(diaSemana) {
+function getDiaSemanaTexto(diaSemana) {
   let diaSemanaTexto
 
   switch (diaSemana) {
@@ -32,52 +32,65 @@ function getDayWeekTest(diaSemana) {
   }
 }
 
-function getNameMonth(numberMonth) {
-  let nameMonth
+function getNomeMes(numeroMes) {
+  let nomeMes
 
-  switch (numberMonth) {
+  switch (numeroMes) {
     case 0:
-      nameMonth = 'January'
-      return nameMonth
+      nomeMes = 'January'
+      return nomeMes
     case 1:
-      nameMonth = 'February'
-      return nameMonth
+      nomeMes = 'February'
+      return nomeMes
     case 2:
-      nameMonth = 'March'
-      return nameMonth
+      nomeMes = 'March'
+      return nomeMes
     case 3:
-      nameMonth = 'April'
-      return nameMonth
+      nomeMes = 'April'
+      return nomeMes
     case 4:
-      nameMonth = 'May'
-      return nameMonth
+      nomeMes = 'May'
+      return nomeMes
     case 5:
-      nameMonth = 'June'
-      return nameMonth
+      nomeMes = 'June'
+      return nomeMes
     case 6:
-      nameMonth = 'July'
-      return nameMonth
+      nomeMes = 'July'
+      return nomeMes
     case 7:
-      nameMonth = 'August'
-      return nameMonth
+      nomeMes = 'August'
+      return nomeMes
     case 8:
-      nameMonth = 'Setember'
-      return nameMonth
+      nomeMes = 'Setember'
+      return nomeMes
     case 9:
-      nameMonth = 'October'
-      return nameMonth
+      nomeMes = 'October'
+      return nomeMes
     case 10:
-      nameMonth = 'November'
-      return nameMonth
+      nomeMes = 'November'
+      return nomeMes
     case 11:
-      nameMonth = 'December'
-      return nameMonth
+      nomeMes = 'December'
+      return nomeMes
   }
 }
 
-function createDate(date) {
-  const dayWeek = data.getDay()
-  const numberMonth = data.getMonth
+function zeroAEsquerda(num) {
+  return num >= 10 ? num : `0${num}`
 }
 
-h1.innerHTML = getDayWeekTest(data.getDay())
+function criaData(data) {
+  const diaSemana = data.getDay()
+  const numeroMes = data.getMonth()
+
+  const nomeDia = getDiaSemanaTexto(diaSemana)
+  const nomeMes = getNomeMes(numeroMes)
+
+  return (
+    `${nomeDia}, ${data.getDate()} de ${nomeMes} ` +
+    `de ${data.getFullYear()} ` +
+    `${zeroAEsquerda(data.getHours())}:${zeroAEsquerda(data.getMinutes())}`
+  )
+}
+
+h1.innerHTML = criaData(data)
