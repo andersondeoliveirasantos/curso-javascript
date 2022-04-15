@@ -30,8 +30,16 @@ for (let i = 0; i <= 10; i++) {
 */
 
 //                 0       1      2
-const fruits = ['Maçã', 'Pêra', 'Uva']
+const fruits = [
+  'Maçã',
+  'Pêra',
+  'Uva',
+  'Laranja',
+  'Maracuja',
+  'Banana',
+  'Abacaxi'
+]
 
 for (let i = 0; i < fruits.length; i++) {
-  console.log(i)
+  console.log(`Index ${i}`, fruits[i])
 }
