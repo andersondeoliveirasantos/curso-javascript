@@ -1,3 +1,4 @@
+/*
 const h1 = document.querySelector('.container h1')
 const data = new Date()
 
@@ -94,3 +95,13 @@ function criaData(data) {
 }
 
 h1.innerHTML = criaData(data)
+*/
+
+const h1 = document.querySelector('.container h1')
+const data = new Date()
+const opcoes = {
+  dateStyle: 'full',
+  timeStyle: 'short'
+}
+
+h1.innerHTML = data.toLocaleDateString('pt-BR', opcoes)
