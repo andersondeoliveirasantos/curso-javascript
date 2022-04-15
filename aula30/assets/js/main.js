@@ -98,7 +98,9 @@ h1.innerHTML = criaData(data)
 */
 
 const h1 = document.querySelector('.container h1')
+
 const data = new Date()
+
 const opcoes = {
   dateStyle: 'full',
   TimeStyle: 'short'
