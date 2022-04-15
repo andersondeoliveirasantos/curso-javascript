@@ -19,8 +19,19 @@ if (verdadeira) {
 
 console.log(nome, nome2)
 */
-
+/**********************************************/
+/*
 function falaOi() {
-  var nome = 'Anderson'
-  console.log(nome)
+  if (verdadeira) {
+    let nome = 'Anderson'
+    var sobrenome = 'Oliveira'
+  }
+  console.log(sobrenome)
 }
+
+falaOi()
+*/
+
+console.log(sobrenome)
+
+var sobrenome = 'Oliveira Santos'
