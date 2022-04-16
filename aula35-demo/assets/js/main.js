@@ -1,6 +1,6 @@
-const elements = [
-  { tag: 'p', test: 'Phrase 01' },
-  { tag: 'div', test: 'Phrase 02' },
-  { tag: 'footer', test: 'Phrase 03' },
-  { tag: 'section', test: 'Phrase 04' }
+const elementos = [
+  { tag: 'p', texto: 'Phrase 01' },
+  { tag: 'div', texto: 'Phrase 02' },
+  { tag: 'footer', texto: 'Phrase 03' },
+  { tag: 'section', texto: 'Phrase 04' }
 ]
