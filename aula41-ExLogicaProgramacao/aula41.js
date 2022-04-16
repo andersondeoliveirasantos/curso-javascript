@@ -58,3 +58,5 @@ console.log(max2(100, 20))
 
 const max2 = (x, y) => (x > y ? x : y)
 console.log(max2(10, 20))
+
+// VÁRIAS FORMAS PARA TRAZER O MESMO RESULTADO !!!
