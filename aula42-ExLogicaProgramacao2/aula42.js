@@ -4,6 +4,10 @@
 // Retorne true se a imagem estiver no
 // modo paisagem.
 
+const ePaisagem = (largura, altura) => largura > altura
+
+console.log(ePaisagem(1080, 1920))
+
 /*****************************************************/
 /*
 function ePaisagem(largura, altura) {
