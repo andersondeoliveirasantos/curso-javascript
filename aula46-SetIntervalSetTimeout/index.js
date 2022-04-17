@@ -10,4 +10,4 @@ function funcaoDoInterval() {
   console.log(mostraHora())
 }
 
-setInterval(funcaoDoInterval)
+setInterval(funcaoDoInterval, 1000)
