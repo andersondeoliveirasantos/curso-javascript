@@ -37,5 +37,13 @@ function retornaHora(data) {
   })
 }
 
-const hora = retornaHora()
-console.log(hora)
+try {
+  const data = new Date('01-01-1970 12:58:12')
+  const hora = retornaHora()
+  console.log(hora)
+} catch (e) {
+  // Tratar erro
+  // console.log(e)
+} finally {
+  console.log('Tenha um bom dia !!!')
+}
