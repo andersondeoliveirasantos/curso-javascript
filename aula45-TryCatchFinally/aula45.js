@@ -13,5 +13,6 @@ try {
   console.log('Manipulei o arquivo e gerou erro')
   console.log('Fechei o arquivo')
 } catch (e) {
+  console.log('Tratando o erro')
 } finally {
 }
