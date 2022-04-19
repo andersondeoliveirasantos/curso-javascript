@@ -1,5 +1,4 @@
 /*
-
 *OPERADORES ATITIMÉTICOS !!!
 
 * + ( Adição / Concatenação )
@@ -26,7 +25,6 @@ Pre-Incremento (Só muda a posição)
 Pós-Decremento (Só muda a posição)
 
 */
-
 const num1 = 10
 const num2 = 5
 const num3 = 2
