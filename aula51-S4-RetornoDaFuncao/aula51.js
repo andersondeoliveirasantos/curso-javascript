@@ -4,7 +4,7 @@
 
 function falaFrase(comeco) {
   function falaResto(resto) {
-    return resto
+    return comeco + ' ' + resto
   }
   return falaResto
 }
