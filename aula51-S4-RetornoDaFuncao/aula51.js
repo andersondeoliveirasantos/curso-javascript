@@ -8,3 +8,6 @@ function falaFrase(comeco) {
   }
   return falaResto
 }
+
+const olaMundo = falaResto('Olá')
+console.log(olaMundo)
