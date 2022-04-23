@@ -10,4 +10,4 @@ function falaFrase(comeco) {
 }
 
 const olaMundo = falaResto('Olá')
-console.log(olaMundo)
+console.log(olaMundo('mundo!'))
