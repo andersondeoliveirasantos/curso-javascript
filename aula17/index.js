@@ -5,11 +5,13 @@ function soma(x, y) {
 }
 
 console.log(soma(2, 2))
+
 */
 // console.log(soma(2, 2))
 // console.log(soma(3, 1))
 // console.log(soma(5, 10))
 /*
+
 function saudacao(nome) {
   return `Bom dia ${nome} !!!`
 }
