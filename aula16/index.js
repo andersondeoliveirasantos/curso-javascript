@@ -10,7 +10,6 @@ console.log(typeof alunos)
 console.log(alunos instanceof Array)
 
 // console.log(alunos.slice(0, -2)) Fatiamento do indice
-
 // console.log(alunos[50])
 
 // delete alunos[1] Deleta o indice e deixa o espaço vazio ( undefined )
