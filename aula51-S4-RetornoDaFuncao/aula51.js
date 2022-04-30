@@ -9,6 +9,6 @@ function falaFrase(comeco) {
   return falaResto
 }
 
-const olaMundo = falaResto('Olá')
-
-console.log(olaMundo('mundo!'))
+const fala = falaFrase('Hello')
+const resto = fala('world !!!')
+console.log(resto)
