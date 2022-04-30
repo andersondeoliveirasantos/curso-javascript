@@ -5,22 +5,25 @@ function rand(min = 1000, max = 3000) {
 
 console.log(rand())
 
-function f1() {
+function f1(callback) {
   setTimeout(function () {
     console.log('F1')
+    if (callback) callback()
   }, 500)
 }
 
-function f2() {
+function f2(callback) {
   setTimeout(function () {
     console.log('F2')
-  }, 1000)
+    if (callback) callback()
+  }, rand())
 }
 
-function f3() {
+function f3(callback) {
   setTimeout(function () {
     console.log('F3')
-  }, 800)
+    if (callback) callback()
+  }, rand())
 }
 
 f1()
