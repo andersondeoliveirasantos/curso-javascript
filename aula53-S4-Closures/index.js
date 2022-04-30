@@ -6,4 +6,4 @@ function retornaFuncao() {
 }
 
 const funcao = retornaFuncao()
-console.log(funcao)
+console.dir(funcao)
