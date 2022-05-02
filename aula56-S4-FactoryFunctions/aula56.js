@@ -6,7 +6,11 @@ function criaPessoa(nome, sobrenome, a, p) {
       return `${this.nome} está ${assunto}`
     },
     altura: a,
-    peso: p
+    peso: p,
+    imc() {
+      const indice = this.peso / this.altura ** 2
+      return indice.toFixed(2)
+    }
   }
 }
 
