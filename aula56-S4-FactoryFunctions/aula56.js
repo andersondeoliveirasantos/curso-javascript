@@ -1,10 +1,12 @@
-function criaPessoa(nome, sobrenome) {
+function criaPessoa(nome, sobrenome, a, p) {
   return {
     nome,
     sobrenome,
     fala: function (assunto) {
       return `${nome} está ${assunto}`
     }
+    altura: a,
+    peso: p,
   }
 }
 
