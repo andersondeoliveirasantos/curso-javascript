@@ -33,7 +33,6 @@ function criaPessoa(nome, sobrenome, a, p) {
 }
 
 const p1 = criaPessoa('Luiz', 'Otávio', 1.8, 80)
-
 const p2 = criaPessoa('João', 'Otávio', 1.9, 57)
 const p3 = criaPessoa('Junior', 'Otávio', 1.5, 110)
 
