@@ -4,7 +4,13 @@ function criaCalculadora() {
 
     inicia() {
       this.cliqueBotoes()
+      this.pressionaEnter()
     },
+
+    pressionaEnter() {
+      this.display.addEventListener('keyuo', e => {
+      })
+    }
 
     realizaConta() {
       let conta = this.display.value
