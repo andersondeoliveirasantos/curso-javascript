@@ -8,9 +8,12 @@ function criaCalculadora() {
     },
 
     pressionaEnter() {
-      this.display.addEventListener('keyuo', e => {
+      this.display.addEventListener('keyup', e => {
+        if (e.keyCode === 13) {
+          this.realizaConta()
+        }
       })
-    }
+    },
 
     realizaConta() {
       let conta = this.display.value
@@ -65,5 +68,6 @@ function criaCalculadora() {
     }
   }
 }
+
 const calculadora = criaCalculadora()
 calculadora.inicia()
