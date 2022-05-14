@@ -17,5 +17,4 @@ function Pessoa(nome, sobrenome) {
 
 const p1 = new Pessoa('Anderson', 'de Oliveira Santos')
 const p2 = new Pessoa('Alice', 'Silva')
-
 p2.metodo()
