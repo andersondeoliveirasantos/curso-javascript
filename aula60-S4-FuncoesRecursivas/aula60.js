@@ -1,6 +1,6 @@
 function recursiva(max) {
   console.log(max)
-  if (max >= 10) return
+  if (max >= 1000) return
   max++
   recursiva(max)
 }
