@@ -1,11 +1,9 @@
 //               -5        -4       -3        -2        -1
 //               0         1        2          3         4
 const nomes = ['Maria', 'João', 'Eduardo', 'Gabriel', 'Júlia']
-console.log(nomes, removidos)
-console.log(Number.MAX_VALUE) // Maior número no JavaScript
 
 // Descrição da função:
-// nomes.splice(indice, delete, elem1, elem2, elem3)
+// nomes.splice(indice atual, delete, elem1, elem2, elem3)
 
 // pop
 // const removidos = nomes.splice(-2, 2)
@@ -17,3 +15,11 @@ console.log(Number.MAX_VALUE) // Maior número no JavaScript
 
 // shit
 //const removidos = nomes.splice(0, 1)
+
+// push
+// nomes.splice(nomes.length, 0, 'Alice', 'Daniela', 'Cristina')
+
+// unshit
+nomes.splice(0, 0, 'Alice', 'Daniela', 'Cristina')
+console.log(nomes)
+console.log(Number.MAX_VALUE) // Maior número no JavaScript
