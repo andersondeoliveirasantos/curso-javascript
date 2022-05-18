@@ -7,6 +7,7 @@
 * ( Multiplicação )  
 ** (Potenciação)
 % (Resto da divisão)
+
 _________________________________________________________
 
 ORDEM DE PRECEDÊNCIA !!!
