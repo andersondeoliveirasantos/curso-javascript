@@ -15,6 +15,7 @@ ORDEM DE PRECEDÊNCIA !!!
 ** > Potenciação
 * / % > Multiplicação > Divisão > Módulo da divisão
 + - > Adição > Subtração
+
 _________________________________________________________
 
 OPERADORES DE INCREMENTO
