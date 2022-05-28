@@ -18,6 +18,7 @@ for (let i = 0; i < nome.length; i++) {
 console.log('############') // Diferenciar as funções
 
 // FOR IN - Retorna o índice ou chave ( string, array ou objetos )
+
 for (let i in nome) {
   console.log(nome[i])
 }

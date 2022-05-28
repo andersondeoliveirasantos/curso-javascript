@@ -7,6 +7,7 @@
 * ( Multiplicação )  
 ** (Potenciação)
 % (Resto da divisão)
+
 _________________________________________________________
 
 ORDEM DE PRECEDÊNCIA !!!
@@ -14,6 +15,7 @@ ORDEM DE PRECEDÊNCIA !!!
 ** > Potenciação
 * / % > Multiplicação > Divisão > Módulo da divisão
 + - > Adição > Subtração
+
 _________________________________________________________
 
 OPERADORES DE INCREMENTO
