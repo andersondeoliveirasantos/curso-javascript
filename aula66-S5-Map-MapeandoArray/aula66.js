@@ -22,8 +22,9 @@ const nomes = pessoas.map(obj => obj.nome)
 const idades = pessoas.map(obj => ({ idade: obj.idade }))
 
 const comIds = pessoas.map(function (obj, indice) {
-  obj.id = indice
+  obj.id = (indice + 1) * 1000
   return obj
 })
 
-console.log(idades)
+console.log(pessoas)
+console.log(comIds)
