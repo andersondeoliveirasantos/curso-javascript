@@ -26,5 +26,4 @@ const comIds = pessoas.map(function (obj, indice) {
 })
 
 console.log(pessoas)
-
 console.log(comIds)
