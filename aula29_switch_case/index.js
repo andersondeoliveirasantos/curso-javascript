@@ -28,6 +28,7 @@ function getDayWeekTest(dayWeek) {
 
 const data = new Date('1987-04-26 00:00:00')
 let dayWeek = data.getDay()
+
 const dayWeekTest = getDayWeekTest(dayWeek)
 
 console.log(dayWeek, dayWeekTest)
