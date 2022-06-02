@@ -33,7 +33,9 @@ function criaPessoa(nome, sobrenome, a, p) {
 
 const p1 = criaPessoa('Anderson', 'de Oliveira Santos', 1.8, 80)
 console.log(p1.nome)
+
 console.log(p1.sobrenome)
+
 console.log(p1.imc)
 
 console.log(p1.nomeCompleto)
