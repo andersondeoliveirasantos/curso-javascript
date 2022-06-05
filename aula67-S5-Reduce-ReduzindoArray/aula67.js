@@ -6,3 +6,4 @@ const nome4 = 0
 console.log(nome1)
 console.log(nome2)
 console.log(nome3)
+console.log(nome4)
