@@ -21,3 +21,7 @@ const pessoas = [
   { nome: 'Rosana', idade: 64 },
   { nome: 'Wallace', idade: 63 }
 ]
+
+const maisVelha = pessoas.reduce(function (acumulador, valor) {
+  console.log(acumulador, valor)
+})
