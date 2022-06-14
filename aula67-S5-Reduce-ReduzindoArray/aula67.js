@@ -11,3 +11,13 @@ const total = numeros.reduce(function (acumulador, valor) {
   return acumulador
 }, 0)
 console.log(total)
+
+// Retorne a pessoa mais velha
+const pessoas = [
+  { nome: 'Anderson', idede: 62 },
+  { nome: 'Maria', idade: 23 },
+  { nome: 'Eduardo', idade: 55 },
+  { nome: 'Leticia:', idade: 10 },
+  { nome: 'Rosana', idade: 64 },
+  { nome: 'Wallace', idade: 63 }
+]
