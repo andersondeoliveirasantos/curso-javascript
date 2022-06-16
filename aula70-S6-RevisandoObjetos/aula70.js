@@ -10,7 +10,9 @@ pessoa1.getDataNascimento = function () {
   return dataAtual.getFullYear() - this.idade
 }
 
-console.log(pessoa1.getDataNascimento())
+for (let chave in pessoa1) {
+  console.log(pessoa1[chave])
+}
 
 /*
 const pessoa = {
