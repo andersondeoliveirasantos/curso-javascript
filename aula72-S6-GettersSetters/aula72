@@ -1,4 +1,5 @@
-// defineProperty - Getter e Setters
+// defineProperty -> Getter e Setters
+
 function Produto(nome, preco, estoque) {
   this.nome = nome
   this.preco = preco
