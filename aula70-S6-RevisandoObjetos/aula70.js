@@ -1,3 +1,18 @@
+// Factory functions
+function criaPessoa(nome, sobrenome) {
+  return {
+    nome,
+    sobrenome,
+    nomeCompleto() {
+      return `${this.nome} ${this.sobrenome}`
+    }
+  }
+}
+
+const p1 = criaPessoa('Anderson', 'de Oliveira Santos')
+console.log(p1.nomeCompleto())
+
+/*
 const pessoa1 = new Object()
 pessoa1.nome = 'Anderson'
 pessoa1.sobrenome = 'de Oliveira Santos'
@@ -13,6 +28,7 @@ pessoa1.getDataNascimento = function () {
 for (let chave in pessoa1) {
   console.log(pessoa1[chave])
 }
+*/
 
 /*
 const pessoa = {
