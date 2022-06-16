@@ -5,11 +5,15 @@ function Produto(nome, preco, estoque) {
 
   Object.defineProperty(this, 'estoque', {
     enumerable: true, // Mostra a chave
-    value: estoque, // Valor
-    writable: false, // Pode alterar o valor ou não
-    configurable: true // Configurável
+    configurable: true, // Configurável
+    get: function () {
+      return estoque
+    },
+    set: function (valor) {}
   })
 }
 
 const p1 = new Produto('Camiseta', 20, 3)
 console.log(p1)
+p1.estoque = 'O valor que eu quero'
+console.log(p1.estoque)
