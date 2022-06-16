@@ -1,3 +1,14 @@
+// Constructor functions
+function Pessoa(nome, sobrenome) {
+  this.nome = nome
+  this.sobrenome = sobrenome
+}
+
+//
+const p1 = new Pessoa('Anderson', 'de Oliveira Santos')
+console.log(p1)
+
+/*
 // Factory functions
 function criaPessoa(nome, sobrenome) {
   return {
@@ -11,6 +22,7 @@ function criaPessoa(nome, sobrenome) {
 
 const p1 = criaPessoa('Anderson', 'de Oliveira Santos')
 console.log(p1.nomeCompleto())
+*/
 
 /*
 const pessoa1 = new Object()
