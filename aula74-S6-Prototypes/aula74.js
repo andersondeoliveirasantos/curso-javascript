@@ -20,13 +20,9 @@ Pessoa.prototype.nomeCompleto = function () {
 
 // instância
 const pessoa1 = new Pessoa('Anderson', 'O.') // <- Pessoa = Função construtora
-
 // const pessoa2 = new Pessoa('Daniela', 'A.') // <- Pessoa = Função construtura
-
 const data = new Date() // <-- Date = Função construtora
 
 console.log(pessoa1)
-
 // console.log(pessoa2)
-
 console.log(data)
