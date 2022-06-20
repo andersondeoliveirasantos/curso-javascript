@@ -24,5 +24,7 @@ const pessoa1 = new Pessoa('Anderson', 'O.') // <- Pessoa = Função construtora
 const data = new Date() // <-- Date = Função construtora
 
 console.log(pessoa1)
+
 // console.log(pessoa2)
+
 console.log(data)
