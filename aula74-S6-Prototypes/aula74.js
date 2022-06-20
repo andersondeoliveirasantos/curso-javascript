@@ -4,7 +4,7 @@ JavaScript é baseado em protótipos para passar propriedades e métodos de um o
 Definição de protótipo:
 Protótipo é o termo usado para se refletir ao que foi criado pela primeira vez, servindo de modelo ou molde para futuras produções.
 
-Todos os objetos tem uma referência interna para um protótipo (__proto__) que vem da propriedade prototype da função cosntrutora que foi usada para criá-la. Quando tentamos acessar um mebro de um objeto e depois a cadeia de protótipos é usada até o topo ( null ) até encontrar ( ou não ) tal membro.
+Todos os objetos tem uma referência interna para um protótipo (__proto__) que vem da propriedade prototype da função cosntrutora que foi usada para criá-la. Quando tentamos acessar um mebro de um objeto, primeiro o motor do JS vai tentar encontrar esta membo no próprio objeto e depois a cadeia de protótipos é usada até o topo ( null ) até encontrar ( ou não ) tal membro.
 */
 
 // Construtora -> molde ( classe )
