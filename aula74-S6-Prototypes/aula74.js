@@ -11,12 +11,18 @@ Todos os objetos tem uma referência interna para um protótipo (__proto__) que 
 function Pessoa(nome, sobrenome) {
   this.nome = nome
   this.sobrenome = sobrenome
-  this.nomeCompleto = () => this.nome + ' ' + this.sobrenome
+  this.nomeCompleto = () => 'ORIGINAL' + this.nome + ' ' + this.sobrenome
+}
+
+Pessoa.prototype.nomeCompleto = function () {
+  return this.nome + ' ' + this.sobrenome
 }
 
 // instância
 const pessoa1 = new Pessoa('Anderson', 'O.') // <- Pessoa = Função construtora
-const pessoa2 = new Pessoa('Daniela', 'A.') // <- Pessoa = Função construtura
+// const pessoa2 = new Pessoa('Daniela', 'A.') // <- Pessoa = Função construtura
+const data = new Date() // <-- Date = Função construtora
 
 console.log(pessoa1)
-console.log(pessoa2)
+// console.log(pessoa2)
+console.log(data)
