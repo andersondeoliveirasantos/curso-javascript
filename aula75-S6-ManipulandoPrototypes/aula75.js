@@ -12,9 +12,24 @@ Produto.prototype.aumento = function (percentual) {
 }
 
 const p1 = new Produto('Camiseta', 50)
-p1.desconto(100)
-p1.aumento(100)
+
+const p2 = {
+  nome: 'Caneca',
+  preco: 15
+}
+Object.setPrototypeOf(p2, Produto.prototype)
+
+p2.aumento(10)
+
+const p3 = Object.create(Produto.prototype)
+p3.preco = 113
+p3.aumento(10)
+console.log(p3)
+
+// p1.desconto(100)
+// p1.aumento(100)
 console.log(p1)
+console.log(p2)
 
 // New object -> Object.prototype
 /*
