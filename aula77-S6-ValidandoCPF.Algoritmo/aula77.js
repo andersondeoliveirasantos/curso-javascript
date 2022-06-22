@@ -10,8 +10,8 @@
 
 11 - (237 % 11) = 5 (Primeiro digito)
 Se o calculo acima for maior que 9, considerar 0
-*/
 console.log(11 - (237 % 11))
+*/
 
 /*
 2º DIGITO:
@@ -20,4 +20,26 @@ console.log(11 - (237 % 11))
 77  0  45 32 56 24 20 20 0  10 = 284
 
 11 - (284 % 11) = 2 (Primeiro digito)
+console.log(11 - (284 % 11))
 */
+
+/*
+let cpf = '705.484.450-52'
+let cpfLimpo = cpf.replace(/\D+/g, '')
+cpfArray = Array.from(cpfLimpo)
+
+console.log(cpfArray.reduce((ac, val) => ac + Number(val), 0))
+*/
+
+function ValidaCPF(cpfEnviado) {
+  Object.defineProperty(this, 'cpfLimpo', {
+    enumerble: true,
+    get: function () {
+      return cpfEnviado.replace(/\D+/g, '')
+    }
+  })
+}
+
+const cpf = new ValidaCPF('705.484.450-52')
+console.log(cpf.cpfLimpo)
+// cpf.valida()
