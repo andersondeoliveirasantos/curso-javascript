@@ -50,6 +50,12 @@ ValidaCPF.prototype.valida = function () {
 
 ValidaCPF.prototype.criaDigito = function (cpfParcial) {
   const cpfArray = Array.from(cpfParcial)
+  let regressivo = cpfArray.length + 1
+  const digito = cpfArray.reduce((ac, val) => {
+    console.log(regressivo, val, regressivo * val)
+    regressivo--
+    return ac
+  }, 0)
 }
 
 const cpf = new ValidaCPF('705.484.450-52')
