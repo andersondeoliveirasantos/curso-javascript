@@ -17,4 +17,10 @@ class Pessoa {
 }
 
 const p1 = new Pessoa('Anderson', 'de Oliveira Santos')
+const p2 = new Pessoa('Daniela', 'de Oliveira Santos')
+const p3 = new Pessoa('Alice', 'de Oliveira Santos')
+const p4 = new Pessoa('Tomaz', 'de Oliveira Santos')
 console.log(p1)
+console.log(p2)
+console.log(p3)
+console.log(p4)
