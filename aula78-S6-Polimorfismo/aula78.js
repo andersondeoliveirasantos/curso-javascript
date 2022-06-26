@@ -56,10 +56,12 @@ cc.depositar(10)
 cc.sacar(110)
 cc.sacar(1)
 
+console.log()
+
 const cp = new CP(12, 33, 0)
-cc.depositar(10)
-cc.sacar(110)
-cc.sacar(1)
+cp.depositar(10)
+cp.sacar(10)
+cp.sacar(1)
 
 /*
 const conta1 = new Conta(11, 22, 10)
