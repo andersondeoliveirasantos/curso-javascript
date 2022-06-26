@@ -15,5 +15,13 @@ Conta.prototype.sacar = function (valor) {
   }
   this.saldo -= valor
 }
-Conta.prototype.depositar = function (valor) {}
-Conta.prototype.verSaldo = function () {}
+Conta.prototype.depositar = function (valor) {
+  this.saldo += valor
+  this.verSaldo
+}
+Conta.prototype.verSaldo = function () {
+  console.log(
+    `Ag/c: ${this.agencia}/${this.conta} | ` +
+      `Saldo: R$${this.saldo.toFixed(2)}`
+  )
+}
