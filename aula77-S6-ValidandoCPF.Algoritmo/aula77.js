@@ -43,7 +43,7 @@ function ValidaCPF(cpfEnviado) {
 ValidaCPF.prototype.valida = function () {
   if (typeof this.cpfLimpo === 'undefined') return false
   if (this.cpfLimpo.length !== 11) return false
-  if (this.isSequencia()) return falce
+  if (this.isSequencia()) return false
 
   const cpfParcial = this.cpfLimpo.slice(0, -2)
   const digito1 = this.criaDigito(cpfParcial)
@@ -67,10 +67,16 @@ ValidaCPF.prototype.criaDigito = function (cpfParcial) {
   return digito > 9 ? '0' : String(digito)
 }
 
-ValidaCPF.prototype.isequencia = function () {
+ValidaCPF.prototype.isSequencia = function () {
   const sequencia = this.cpfLimpo[0].repeat(this.cpfLimpo.lenght)
-  console.log(sequencia === this.cpfLimpo)
+  return sequencia === this.cpfLimpo
 }
 
-const cpf = new ValidaCPF('705.484.450-52')
+const cpf = new ValidaCPF('070.987.720-03')
 console.log(cpf.valida())
+
+if (cpf.valida()) {
+  console.log('CPF Válido')
+} else {
+  console.log('CPF Inválido')
+}
