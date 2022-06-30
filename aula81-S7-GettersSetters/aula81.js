@@ -16,3 +16,4 @@ class Carro {
 }
 
 const c1 = new Carro('Fusca')
+console.log(Carro)
