@@ -16,4 +16,10 @@ class Carro {
 }
 
 const c1 = new Carro('Fusca')
-console.log(Carro)
+
+for (let i = 0; i <= 200; i++) {
+  c1.acelerar()
+}
+
+c1.acelerar()
+console.log(c1)
