@@ -22,3 +22,6 @@ class DispositivoEletronico {
     this.ligafo = false
   }
 }
+
+const d1 = new DispositivoEletronico('Smartphone')
+console.log(d1)
