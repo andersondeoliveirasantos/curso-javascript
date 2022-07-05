@@ -13,15 +13,18 @@ class DispositivoEletronico {
     this.ligado = true
   }
 
-  desligado() {
+  desligar() {
     if (!this.ligado) {
       console.log(this.nome + ' já desligado')
       return
     }
 
-    this.ligafo = false
+    this.ligado = false
   }
 }
 
 const d1 = new DispositivoEletronico('Smartphone')
+d1.ligar()
+d1.desligar()
+d1.desligar()
 console.log(d1)
