@@ -4,13 +4,23 @@ class ControleRemoto {
     this.volume = 0
   }
 
+  // Método de instância
   aumentarVolume() {
     this.volume += 2
   }
   diminuirVolume() {
     this.volume -= 2
   }
+
+  // Método de etático
+  static trocaPilha() {
+    console.log('Ok, vou trocar.')
+  }
 }
 
-console controle1 = new ControleRemoto('LG')
-console1
+const controle1 = new ControleRemoto('LG')
+controle1.aumentarVolume()
+controle1.aumentarVolume()
+controle1.aumentarVolume()
+
+console.log(controle1)
