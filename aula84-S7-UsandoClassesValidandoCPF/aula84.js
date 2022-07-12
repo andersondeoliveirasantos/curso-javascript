@@ -23,4 +23,5 @@ class ValidaCPF {
 }
 
 const validacpf = new ValidaCPF('070.987.720-03')
+
 console.log(validacpf.valida)
