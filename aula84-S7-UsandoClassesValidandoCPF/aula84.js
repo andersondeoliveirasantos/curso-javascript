@@ -13,16 +13,22 @@ class ValidaCPF {
     return this.cpfLimpo.charAt(0).repeat(11) === this.cpfLimpo
   }
 
+  geraNovoCpf() {
+    const cpfSemDigitos = this.cpfLimpo.slice(0, -2)
+    const digito1 = this.geraDigito(cpfSemDigitos)
+  }
+
   valida() {
     if (!this.cpfLimpo) return false
     if (typeof this.cpfLimpo !== 'string') return false
-    if (this.cpfLimpo !== 11) return false
+    if (this.cpfLimpo.lenght !== 11) return false
     if (this.éSequência()) return false
+    if (this.geraNovoCpf()) return false
 
     return 'CHEGUEI AQUI'
   }
 }
 
-const validacpf = new ValidaCPF('070.987.720-03')
+let validacpf = new ValidaCPF('070.987.720-03')
 
-console.log(validacpf.valida)
+console.log(validacpf.valida())
