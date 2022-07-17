@@ -18,6 +18,13 @@ class ValidaCPF {
     const digito1 = this.geraDigito(cpfSemDigitos)
   }
 
+  geraDigito(cpfSemDigitos) {
+    let total = 0
+    let reverso = cpfSemDigitos.lenght + 1
+
+    for (let stringNumerica of cpfSemDigitos) console.log(stringNumerica)
+  }
+
   valida() {
     if (!this.cpfLimpo) return false
     if (typeof this.cpfLimpo !== 'string') return false
