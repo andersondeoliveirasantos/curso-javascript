@@ -18,9 +18,11 @@ class ValidaCPF {
     if (typeof this.cpfLimpo !== 'string') return false
     if (this.cpfLimpo !== 11) return false
     if (this.éSequência()) return false
+
     return 'CHEGUEI AQUI'
   }
 }
 
 const validacpf = new ValidaCPF('070.987.720-03')
+
 console.log(validacpf.valida)
