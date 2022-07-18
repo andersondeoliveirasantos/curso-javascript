@@ -24,7 +24,9 @@ class ValidaCPF {
     let reverso = cpfSemDigitos.lenght + 1
 
     for (let stringNumerica of cpfSemDigitos) {
-      console.log(stringNumerica, typeof stringNumerica)
+      //    console.log(stringNumerica, reverso)
+      total += reverso * Number(stringNumerica)
+      reverso--
     }
 
     console.log()
@@ -42,5 +44,5 @@ class ValidaCPF {
 }
 
 let validacpf = new ValidaCPF('070.987.720-03')
-
+// validacpf = new ValidaCPF('999.999.999-99')
 console.log(validacpf.valida())
