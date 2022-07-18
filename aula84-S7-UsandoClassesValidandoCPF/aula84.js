@@ -40,12 +40,16 @@ class ValidaCPF {
     if (this.cpfLimpo.lenght !== 11) return false
     if (this.éSequência()) return false
     this.geraNovoCpf()
-    console.log(this.novoCPF)
 
-    return 'CHEGUEI AQUI'
+    return this.novoCPF === this.cpfLimpo
   }
 }
 
 let validacpf = new ValidaCPF('070.987.720-03')
 // validacpf = new ValidaCPF('999.999.999-99')
-console.log(validacpf.valida())
+
+if (validacpf.valida()) {
+  console.log('CPF VÁLIDO !!!')
+} else {
+  console.log('CPF INVÁLIDO !!!')
+}
