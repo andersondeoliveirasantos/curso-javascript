@@ -17,6 +17,7 @@ class ValidaCPF {
     const cpfSemDigitos = this.cpfLimpo.slice(0, -2)
     const digito1 = this.geraDigito(cpfSemDigitos)
     const digito2 = this.geraDigito(cpfSemDigitos + digito1)
+    this.novoCPF = cpfSemDigitos + digito1 + digito2
   }
 
   geraDigito(cpfSemDigitos) {
@@ -29,7 +30,8 @@ class ValidaCPF {
       reverso--
     }
 
-    console.log()
+    const digito = 11 - (total % 11)
+    return digito <= 9 ? String(digito) : '0'
   }
 
   valida() {
@@ -37,7 +39,8 @@ class ValidaCPF {
     if (typeof this.cpfLimpo !== 'string') return false
     if (this.cpfLimpo.lenght !== 11) return false
     if (this.éSequência()) return false
-    if (this.geraNovoCpf()) return false
+    this.geraNovoCpf()
+    console.log(this.novoCPF)
 
     return 'CHEGUEI AQUI'
   }
