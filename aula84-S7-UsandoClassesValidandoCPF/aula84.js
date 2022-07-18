@@ -16,13 +16,18 @@ class ValidaCPF {
   geraNovoCpf() {
     const cpfSemDigitos = this.cpfLimpo.slice(0, -2)
     const digito1 = this.geraDigito(cpfSemDigitos)
+    const digito2 = this.geraDigito(cpfSemDigitos + digito1)
   }
 
   geraDigito(cpfSemDigitos) {
     let total = 0
     let reverso = cpfSemDigitos.lenght + 1
 
-    for (let stringNumerica of cpfSemDigitos) console.log(stringNumerica)
+    for (let stringNumerica of cpfSemDigitos) {
+      console.log(stringNumerica, typeof stringNumerica)
+    }
+
+    console.log()
   }
 
   valida() {
