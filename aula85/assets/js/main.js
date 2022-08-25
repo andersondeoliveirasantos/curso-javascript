@@ -12,6 +12,7 @@ class ValidaFormulario {
 
   handleSubmit(e) {
     e.preventDefault()
+    this.
   }
 }
 
