@@ -12,8 +12,10 @@ class ValidaFormulario {
 
   handleSubmit(e) {
     e.preventDefault()
-    this.
+    const camposValidos = this.campoSAoValidos()
   }
+
+  campoSAoValidos() {}
 }
 
 const valida = new ValidaFormulario()
