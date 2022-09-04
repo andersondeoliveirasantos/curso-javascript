@@ -12,6 +12,10 @@ class ValidaFormulario {
     e.preventDefault()
     const camposValidos = this.campoSAoValidos()
   }
-  campoSAoValidos() {}
+  campoSAoValidos() {
+    let valid = true
+
+    for(let campo of this.formulario.querySelectorAll('.validar'))
+  }
 }
 const valida = new ValidaFormulario()
