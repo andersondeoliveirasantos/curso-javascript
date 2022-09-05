@@ -32,13 +32,19 @@ class ValidaFormulario {
       
       }
 
+      if(campo.classList.contains('usuario')) {
+        if(!this.validaUsuario(campo)) valid = false 
     }
   }
 
-  validaCPF(campo) {
-    const cpf = new ValidaCPF(cpf.value)
+  validaUsuario() {
+    return true
+  }
 
-    if(cpf.valid()) {
+  validaCPF(campo) {
+    const cpf = new ValidaCPF(campo.value)
+
+    if(cpf.valida()) {
       this.criaErro(campo, 'CPF inválido.')
       return false
     }
