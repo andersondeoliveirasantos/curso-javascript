@@ -27,9 +27,24 @@ class ValidaFormulario {
         valid = false
       }
 
+      if(campo.classList.contains(cpf)) {
+        if(!this.validaCPF(campo)) valid = false      
+      
+      }
 
     }
   }
+
+  validaCPF(campo) {
+    const cpf = new ValidaCPF(cpf.value)
+
+    if(cpf.valid()) {
+      this.criaErro(campo, 'CPF inválido.')
+      return false
+    }
+    return true
+  }
+}
 
   criaErro(campo, msg)
   const div = document.createElement('div')
