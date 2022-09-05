@@ -13,8 +13,34 @@ class ValidaFormulario {
   handleSubmit(e) {
     e.preventDefault()
     const camposValidos = this.campoSAoValidos()
+    const senhasValidas = this.senhasValidas()
+
+    if(camposValidos && senhasValidas) {
+      alert('Formulário enviado')
+      this.formulario.submit()
+    }
   }
-  
+
+  senhasValidas() {
+    let valid = true
+
+    const senha = this.formulario.querySelector('.senha')
+    const repetirSenha = this.formulario.querySelector('.repetri-senha')
+
+    if(senha.value !== repetirSenha.value){
+      valid = false
+      this.criaErro(senha, 'Campo senha e repetir senha, precisa ser iguais.')
+      this.criaErro(repetirSenha, 'Campo senha e repetir senha, precisa ser iguais.')      
+    }
+
+    if(senha.value.length < 6 || senha.value.length > 12) {
+      valid = false
+      this.criaErro(senha, 'Senha precisa estar entre 6 e 12 caracteres.')
+    }
+
+    return valid
+  }
+
   campoSAoValidos() {
     let valid = true
 
@@ -30,14 +56,17 @@ class ValidaFormulario {
         valid = false
       }
 
-      if(campo.classList.contains(cpf)) {
+      if(campo.classList.contains('cpf')) {
         if(!this.validaCPF(campo)) valid = false      
-      
       }
 
       if(campo.classList.contains('usuario')) {
         if(!this.validaUsuario(campo)) valid = false 
     }
+
+   }
+
+   return valid
   }
 
   validaUsuario() {
