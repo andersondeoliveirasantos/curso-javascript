@@ -25,13 +25,11 @@ class ValidaCPF {
     let reverso = cpfSemDigitos.lenght + 1
 
     for (let stringNumerica of cpfSemDigitos) {
-      //    console.log(stringNumerica, reverso)
       total += reverso * Number(stringNumerica)
       reverso--
     }
 
     const digito = 11 - (total % 11)
-
     return digito <= 9 ? String(digito) : '0'
   }
 
@@ -46,14 +44,11 @@ class ValidaCPF {
   }
 }
 
-/*
-let validacpf = new ValidaCPF('070.987.720-03')
-
+// let validacpf = new ValidaCPF('070.987.720-03')
 // validacpf = new ValidaCPF('999.999.999-99')
 
-if (validacpf.valida()) {
-  console.log('CPF VÁLIDO !!!')
-} else {
-  console.log('CPF INVÁLIDO !!!')
-}
-*/
+//if (validacpf.valida()) {
+//  console.log('CPF VÁLIDO !!!')
+//} else {
+//  console.log('CPF INVÁLIDO !!!')
+// }

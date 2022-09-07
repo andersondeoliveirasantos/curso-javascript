@@ -1,6 +1,6 @@
 class ValidaFormulario {
   constructor() {
-    this.formulario - document.querySelector('.formalario')
+    this.formulario = document.querySelector('.formalario')
     this.eventos()
   }
 
@@ -12,16 +12,16 @@ class ValidaFormulario {
 
   handleSubmit(e) {
     e.preventDefault()
-    const camposValidos = this.campoSAoValidos()
-    const senhasValidas = this.senhasValidas()
+    const camposValidos = this.camposSaoValidos()
+    const senhasValidas = this.senhasSaoValidas()
 
     if (camposValidos && senhasValidas) {
-      alert('Formulário enviado')
+      alert('Formulário enviado.')
       this.formulario.submit()
     }
   }
 
-  senhasValidas() {
+  senhasSaoValidas() {
     let valid = true
 
     const senha = this.formulario.querySelector('.senha')
@@ -44,7 +44,7 @@ class ValidaFormulario {
     return valid
   }
 
-  campoSAoValidos() {
+  camposSaoValidos() {
     let valid = true
 
     for (let errorText of this.formulario.querySelectorAll('.error-text')) {
@@ -55,7 +55,7 @@ class ValidaFormulario {
       const label = campo.previousElementSibling.innerText
 
       if (!campo.value) {
-        this.criaErro(campo, `Campo "${label} não pode estar em branco`)
+        this.criaErro(campo, `Campo "${label} não pode estar em branco.`)
         valid = false
       }
 
@@ -71,39 +71,43 @@ class ValidaFormulario {
     return valid
   }
 
-  validaUsuario() {
+  validaUsuario(campo) {
     const usuario = campo.value
     let valid = true
+
     if (usuario.length < 3 || usuario.length > 12) {
       this.criaErro(campo, 'Usuário precisa ter entre 3 e 12 caracteres.')
       valid = false
     }
 
-    if (usuario.match(/^[a-zA-Z0-9]+$/g)) {
+    if (!usuario.match(/^[a-zA-Z0-9]+$/g)) {
       this.criaErro(
         campo,
         'Nome do usuário precisa conter apenas letras e/ou números.'
       )
       valid = false
     }
+
     return valid
   }
 
   validaCPF(campo) {
     const cpf = new ValidaCPF(campo.value)
 
-    if (cpf.valida()) {
+    if (!cpf.valida()) {
       this.criaErro(campo, 'CPF inválido.')
       return false
     }
+
     return true
   }
-}
 
-criaErro(campo, msg)
-const div = document.createElement('div')
-div.innerHTML = msg
-div.classList.add('error-text')
-campo.insertAdjacentElement('afterend', div)
+  criaErro(campo, msg) {
+    const div = document.createElement('div')
+    div.innerHTML = msg
+    div.classList.add('error-text')
+    campo.insertAdjacentElement('afterend', div)
+  }
+}
 
 const valida = new ValidaFormulario()
