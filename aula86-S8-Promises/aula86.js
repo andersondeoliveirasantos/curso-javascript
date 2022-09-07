@@ -5,11 +5,12 @@ function rand(min, max) {
 }
 
 function esperaAi(msg, tempo) {
-  setTimeout(() => {
-    console.log(msg)
-  }, tempo)
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      console.log(msg)
+      resolve()
+    }, tempo)
+  })
 }
 
-esperaAi('Frase 1', rand(1, 3))
-esperaAi('Frase 2', rand(1, 3))
-esperaAi('Frase 3', rand(1, 3))
+esperaAi('Frase 1', rend(1, 3))
