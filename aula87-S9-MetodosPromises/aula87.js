@@ -9,13 +9,13 @@ function esperaAi(msg, tempo) {
     if (typeof msg !== 'string') reject(false)
 
     setTimeout(() => {
-      resolve(msg.toUpperCase() + ' - Passei na promise')
+      resolve(msg.toUpperCase() + ' - Passei na PROMISE')
     }, tempo)
   })
 }
 
-// Promise.all - Promise.race - Promise.resolve - Promise.reject
-
+// Promise.all
+/*
 const promises = [
   'Primeiro valor',
   esperaAi('Promise 1', 3000),
@@ -25,6 +25,23 @@ const promises = [
 ]
 
 Promise.all(promises)
+  .then(function (valor) {
+    console.log(valor)
+  })
+  .catch(function (erro) {
+    console.log(erro)
+  })
+*/
+
+// Promise.race - Promise.resolve - Promise.reject
+
+const promises = [
+  esperaAi('Promise 1', 3000),
+  esperaAi('Promise 2', 500),
+  esperaAi('Promise 3', 1000)
+]
+
+Promise.race(promises)
   .then(function (valor) {
     console.log(valor)
   })
