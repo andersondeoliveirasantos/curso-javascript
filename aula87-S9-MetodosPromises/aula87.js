@@ -73,7 +73,7 @@ baixaPagina()
   .catch(e => console.log(e))
 */
 
-// *** Promise.reject ///
+// *** Promise.reject ***
 
 function baixaPagina() {
   const emCache = true
@@ -89,4 +89,4 @@ baixaPagina()
   .then(dadosPagina => {
     console.log(dadosPagina)
   })
-  .catch(e => console.log(e))
+  .catch(e => console.log('ERRO', e))
