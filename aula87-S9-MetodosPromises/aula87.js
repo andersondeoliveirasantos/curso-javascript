@@ -13,4 +13,4 @@ function esperaAi(msg, tempo)
     }, tempo) 
 })
 
-//
+// Promise.all - Promise.race - Promise.resolve - Promise.reject
