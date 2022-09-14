@@ -1,6 +1,11 @@
 /* CAMINHOS */
 
 const path = require('path')
+console.log(__dirname)
+console.log()
+console.log(path.resolve(__dirname))
+console.log()
+console.log(path.resolve(__dirname, '..', '..'))
 console.log()
 
 // console.log(__filename)
