@@ -7,10 +7,26 @@ Digital Innovation One Fanpage
 
 
 
-Em 2021 decidida a realizar minha transição de carreira para tecnologia, 
-fiz cursos voltados a desenvolvimento Front-End utilizando as linguagens 
-HTML5, CSS3 e JavaScript, além de ferramentas como Git&Github, 
-Projetos ágeis com SCRUM e atualmente sou aluna no Bootcamp do Laboratoria, 
-Front-End Developer & UX Designer, com início em Maio 2021 e término em Novembro de 2021.
+Em 2021 decidida a realizar minha transição de carreira para a área de tecnologia, 
+fiz cursos voltados para a programaço com foco em Front-End utilizando as linguagens 
+HTML5, CSS3 e JavaScript, além de ferramentas como Git e Github.
 
-Github : github.com/palomacqueiroz
+Procuro ingressar na área de tecnologia a partir do cargo de Front-end Júnior e busco, 
+através deste novo desafio, me desenvolver profissionalmente, pôr em prática 
+o que venho aprendendo e estudando, a fim de contribuir ativamente com o 
+desenvolvimento da empresa.
+
+
+Github : https://github.com/andersondeoliveirasantos
+
+
+
+
+
+
+
+
+
+
+
+
