@@ -1,13 +1,7 @@
 const express = require('express')
 const app = express()
 
-//         CRIAR  LER   ATUALIZAR  APAGAR
-// CRUD -> CREAT, READ, UPDATE,    DELETE
-//         POST   GET   PUT        DELETE
-
-// http://meusite.com/ <- GET -> Entregue a página /
-// http://meusite.com/sobre <- GET -> Entregue a página / sobre
-// http://meusite.com/contato <- GET -> Entregue a página / contato
+// http://facebook.com/profiles/12345:campanha=googleads&nome_campanha=master
 
 app.get('/', (req, res) => {
   res.send(`
@@ -20,10 +14,6 @@ app.get('/', (req, res) => {
 
 app.post('/', (req, res) => {
   res.send('Recebi o formulário')
-})
-
-app.get('/contato', (req, res) => {
-  res.send('Obrigado por entrar em contato com a gente.')
 })
 
 app.listen(3000, () => {
