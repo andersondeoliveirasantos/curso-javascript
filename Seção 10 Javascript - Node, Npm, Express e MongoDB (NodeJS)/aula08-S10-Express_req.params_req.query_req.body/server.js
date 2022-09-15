@@ -12,6 +12,11 @@ app.get('/', (req, res) => {
   `)
 })
 
+app.get('/testes/:idUsuarios', (req, res) => {
+  console.log(req.params)
+  res.send('Hi')
+})
+
 app.post('/', (req, res) => {
   res.send('Recebi o formulário')
 })
