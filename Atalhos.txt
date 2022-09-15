@@ -6,6 +6,10 @@
 Digital Innovation One Fanpage
 
 
+MONGO_DB:
+andersonsantos
+QUcBNED5YDhnE78A
+mongodb+srv://andersonsantos:QUcBNED5YDhnE78A@cursojs-01.ik6knq4.mongodb.net/?retryWrites=true&w=majority
 
 Em 2021 decidida a realizar minha transição de carreira para a área de tecnologia, 
 fiz cursos voltados para a programaço com foco em Front-End utilizando as linguagens 
