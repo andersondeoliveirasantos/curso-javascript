@@ -1,22 +1,26 @@
 const express = require('express')
 const app = express()
 
+app.use(express.urlencoded({ extended: true }))
+
 app.get('/', (req, res) => {
   res.send(`
-  <from action="/" mothod="POST">
+  <form action="/" method="POST">
   Nome do cliente: <input type="text" name="nome">
-  <button>Enviar formulário</button>
-  </from>
+  <button>Hello world</button>
+  </form>
   `)
 })
 
 app.get('/testes/:idUsuarios?/:parametro?', (req, res) => {
   console.log(req.params)
-  res.send(req.params.idUsuarios)
+  console.log(req.query)
+  res.send(req.query.facebookprofile)
 })
 
 app.post('/', (req, res) => {
-  res.send('Recebi o formulário')
+  console.log(req.body)
+  res.send(`O que voccê me enviou foi: ${req.body.nome}`)
 })
 
 app.listen(3000, () => {
