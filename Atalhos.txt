@@ -1,3 +1,16 @@
 
 
 .gitignore
+
+
+Digital Innovation One Fanpage
+
+
+
+Em 2021 decidida a realizar minha transição de carreira para tecnologia, 
+fiz cursos voltados a desenvolvimento Front-End utilizando as linguagens 
+HTML5, CSS3 e JavaScript, além de ferramentas como Git&Github, 
+Projetos ágeis com SCRUM e atualmente sou aluna no Bootcamp do Laboratoria, 
+Front-End Developer & UX Designer, com início em Maio 2021 e término em Novembro de 2021.
+
+Github : github.com/palomacqueiroz
