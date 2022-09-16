@@ -9,7 +9,7 @@ exports.outromiddleware = (req, res, next) => {
 
 exports.checkCsrfError = (err, req, res, next) => [
   if(err && 'EBADCSRFTOKEN' === err.code) {
-    
+    return res.send('BAD CSRF.')
   }
 ]
 
