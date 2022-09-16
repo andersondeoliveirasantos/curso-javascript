@@ -6,3 +6,10 @@ exports.middlewareGlobal = (req, res, next) => {
 exports.outromiddleware = (req, res, next) => {
   next()
 }
+
+exports.checkCsrfError = (err, req, res, next) => [
+  if(err && 'EBADCSRFTOKEN' === err.code) {
+    
+  }
+]
+
