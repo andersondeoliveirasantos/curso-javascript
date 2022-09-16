@@ -1,0 +1,11 @@
+<% Controle de floxo ( if, for ... ) %>
+
+<%= Imprime escapando caracteres %>
+
+<%- Imprime escapando caracteres %>
+
+<%# Comentário %>
+
+<%- Include('CAMINHO/ARQUIVO') %>
+
+<%%>
