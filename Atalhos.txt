@@ -11,6 +11,9 @@ andersonsantos
 QUcBNED5YDhnE78A
 mongodb+srv://andersonsantos:QUcBNED5YDhnE78A@cursojs-01.ik6knq4.mongodb.net/?retryWrites=true&w=majority
 
+https://github.com/luizomf/curso-js/tree/master/projetoagenda
+
+
 Em 2021 decidida a realizar minha transição de carreira para a área de tecnologia, 
 fiz cursos voltados para a programaço com foco em Front-End utilizando as linguagens 
 HTML5, CSS3 e JavaScript, além de ferramentas como Git e Github.
