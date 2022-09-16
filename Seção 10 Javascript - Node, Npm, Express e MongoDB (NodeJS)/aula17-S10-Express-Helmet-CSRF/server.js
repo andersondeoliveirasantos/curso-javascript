@@ -20,7 +20,8 @@ const helmet = require('helmet')
 const csrf = require('csurf')
 const {
   middlewareGlobal,
-  checkCsrfError
+  checkCsrfError,
+  csrfMiddleware
 } = require('./src/middlewares/middleware')
 
 app.use(helmet())
@@ -47,6 +48,7 @@ app.use(csrf())
 // Nosso própios middlewares
 app.use(middlewareGlobal)
 app.use(checkCsrfError)
+app.use(csrfMiddleware)
 app.use(routes)
 
 app.on('pronto', () => {
