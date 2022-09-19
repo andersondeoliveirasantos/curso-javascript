@@ -4,6 +4,8 @@ npm start
 
 npm run dev 
 
+npm i validator
+
 npm i bcryptjs
 
 
