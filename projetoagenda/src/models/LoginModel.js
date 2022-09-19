@@ -20,15 +20,24 @@ class Login {
     this.valida()
     if (this.errors.length > 0) return
 
+    await this.userExists()
+
+    const salt = bcryptjs.genSaltSync()
+    this.body.password = bcryptjs.hashSync(this.body.password, salt)
+
     try {
-      const salt = bcryptjs.genSaltSync()
-      this.body.password = bcryptjs.hashSync(this.body.password, salt)
       this.user = await LoginModel.create(this.body)
-    }catch(e) {
+    } catch (e) {
       console.log(e)
+    }
   }
 
-  valida(); {
+  async userExists() {
+    const user = await LoginModel.findOne({ email: this.body.email })
+    if (user) this.errors.push('Usuário já existe.')
+  }
+
+  valida() {
     this.clearUp()
 
     // Validação
@@ -42,7 +51,7 @@ class Login {
     }
   }
 
-  clearUp(); {
+  clearUp() {
     for (const key in this.body) {
       if (typeof this.body[key] !== 'string') {
         this.body[key] = ''
@@ -56,4 +65,4 @@ class Login {
   }
 }
 
-module.exports = Login;
+module.exports = Login
