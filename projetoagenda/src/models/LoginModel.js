@@ -3,7 +3,7 @@ const validator = require('validator')
 
 const LoginSchema = new mongoose.Schema({
   email: { type: String, required: true },
-  senha: { type: String, required: true }
+  password: { type: String, required: true }
 })
 
 const LoginModel = mongoose.model('Login', LoginSchema)
@@ -21,10 +21,11 @@ class Login {
 
     try {
       this.user = await LoginModel.create(this.body)
+    }catch(e) {
       console.log(e)
   }
 
-  valida() {
+  valida(); {
     this.clearUp()
 
     // Validação
@@ -38,7 +39,7 @@ class Login {
     }
   }
 
-  clearUp() {
+  clearUp(); {
     for (const key in this.body) {
       if (typeof this.body[key] !== 'string') {
         this.body[key] = ''
@@ -52,4 +53,4 @@ class Login {
   }
 }
 
-module.exports = Login
+module.exports = Login;
