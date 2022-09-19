@@ -4,6 +4,7 @@ npm start
 
 npm run dev 
 
+npm i bcryptjs
 
 
 
