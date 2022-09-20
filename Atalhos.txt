@@ -8,11 +8,12 @@ npm i validator
 
 npm i bcryptjs
 
-
-
 .gitignore
 
 
+
+
+DIO - Linkedin
 Digital Innovation One Fanpage
 
 
@@ -39,16 +40,50 @@ Github : https://github.com/andersondeoliveirasantos
 
 
 
+GIT BASH
+
+CHAVE DO SERVIRDOR:
+
+Your identification has been saved in /c/Users/Anderson/.ssh/id_rsa
+Your public key has been saved in /c/Users/Anderson/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:6HeF/PVvm9oqhGYjkSE67lpICpyVPmsb+5dERixJ70k Anderson@DESKTOP-FTOC2GK
+The key's randomart image is:
++---[RSA 3072]----+
+|    ..o          |
+|    .+.+         |
+|   o. +Eo        |
+|. +o  o*.. .     |
+|.+.o. +oS + . .  |
+|+ ..o. o = + . . |
+|...=  o * + .   .|
+|  o.+  + . .  . +|
+| ..o...     .oo=o|
++----[SHA256]-----+
+
+
+Google Cloud - Endereço de IP externo estático:
+35.198.44.228
+
+
+Comandos quando reiniciar o notebook:
+
+eval $(ssh-agent)
+
+ssh-add ~/.ssh/id_rsa
+
+ssh 35.198.44.228 ( ENTRAR NO SERVIDOR )
+
+
+DEPOIS DE ACESSAR O SERVIDOR:
+
+sudo apt update
+
+sudo apt upgrade
 
 
 
+REINICIAR:
 
-
-
-
-
-
-
-
-
+sudo reboot
 
