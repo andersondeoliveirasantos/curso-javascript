@@ -95,6 +95,10 @@ GIT ( AULA 164 ):
 
 git
 
+git init --bare
+
+git init
+
 git config --global user.email "anderson.olliver@outloo.com"
 
 git config --global user.name "anderson olliver"
