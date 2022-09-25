@@ -115,6 +115,9 @@ git commit -am 'Commit inicial' ( COMITA OS ARQUIVOS '' NOME DO ARQUIVO
 
 
 
+MYSQL_ROOT_PASSWORD=Sonzitsu@py21536274$$$ mariadb
+
+
 
 
 Primeiros passos para desenvolvimento web
