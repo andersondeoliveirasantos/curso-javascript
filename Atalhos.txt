@@ -114,12 +114,6 @@ git add . ( )
 git commit -am 'Commit inicial' ( COMITA OS ARQUIVOS '' NOME DO ARQUIVO
 
 
-
-MYSQL_ROOT_PASSWORD=Sonzitsu@py21536274$$$ mariadb
-
-
-
-
 Primeiros passos para desenvolvimento web
 
 Introdução a criação de websites com HTML5 e CSS3
@@ -147,5 +141,23 @@ JavaScript ES6
 Node.js, Npm, Express e MongoDB
 
 Fazendo o React com componets de classes ( básico )
+
+
+/////////////////////////*** MARIA_DB ***\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+MYSQL_ROOT_PASSWORD=Sonzitsu@py21536274$$$ mariadb
+
+
+sudo docker ps ( VIRIFICAR STATUS )
+
+sudo docker start ( bdmariadb1 = NOME )
+
+sudo docker restart ( bdmariadb1 = NOME ) REINICIAR
+
+sudo docker stop ( bdmariadb1 = NOME ) PARAR
+
+sudo docker rm ( bdmariadb1 = NOME ) REMOVER CONTAINER "PARAR ANTES"
+
 
 
