@@ -15,5 +15,6 @@ module.exports = {
   rules: {
     "no-console": "off",
     quotes: "off",
+    "class-methods-use-this": "off",
   },
 };
