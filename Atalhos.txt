@@ -65,6 +65,7 @@ The key's randomart image is:
 Google Cloud - Endereço de IP externo estático:
 35.198.44.228
 
+SENHA - Sonzitsu@py21536274$
 
 Comandos quando reiniciar o notebook:
 
@@ -126,13 +127,7 @@ Introdução ao Git e ao GitHub
 
 JavaScript lógica de programação
 
-Lógica de programação
-
-Funções
-
-Arrays
-
-Objetos e prototypes
+Funções, Arrays, Objetos e prototypes
 
 Promises e Ajax
 
@@ -141,6 +136,8 @@ JavaScript ES6
 Node.js, Npm, Express e MongoDB
 
 Fazendo o React com componets de classes ( básico )
+
+Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces
 
 
 /////////////////////////*** MARIA_DB ***\\\\\\\\\\\\\\\\\\\\\\\\\
