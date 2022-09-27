@@ -62,16 +62,22 @@ The key's randomart image is:
 +----[SHA256]-----+
 
 
+
 Google Cloud - Endereço de IP externo estático:
 35.198.44.228
 
 SENHA - Sonzitsu@py21536274$
+
+
 
 Comandos quando reiniciar o notebook:
 
 eval $(ssh-agent)
 
 ssh-add ~/.ssh/id_rsa
+
+
+
 
 ssh 35.198.44.228 ( ENTRAR NO SERVIDOR )
 
