@@ -11,6 +11,12 @@ class UserController {
       });
     }
   }
+
+  // index
+
+  // show
+
+  // update
 }
 
 export default new UserController();
