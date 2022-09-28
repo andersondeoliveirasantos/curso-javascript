@@ -7,7 +7,7 @@ export default class Aluno extends Model {
         nome: {
           type: Sequelize.STRING,
           defaultValue: "",
-          validade: {
+          validate: {
             len: {
               args: [3, 255],
               msg: "Nome precisa ter entre 3 e 255 caracteres.",
@@ -17,7 +17,7 @@ export default class Aluno extends Model {
         sobrenome: {
           type: Sequelize.STRING,
           defaultValue: "",
-          validade: {
+          validate: {
             len: {
               args: [3, 255],
               msg: "Sobrenome precisa ter entre 3 e 255 caracteres.",
@@ -28,38 +28,38 @@ export default class Aluno extends Model {
           type: Sequelize.STRING,
           defaultValue: "",
           unique: {
-            msg: "E-mail já existe.",
+            msg: "E-mail já existe",
           },
-          validade: {
+          validate: {
             isEmail: {
-              msg: "Email inválido.",
+              msg: "E-mail inválido",
             },
           },
         },
         idade: {
           type: Sequelize.INTEGER,
           defaultValue: "",
-          validade: {
+          validate: {
             isInt: {
-              msg: "Idade precisa ser um númeiro inteiro.",
+              msg: "Idade precisa ser um número inteiro",
             },
           },
         },
         peso: {
           type: Sequelize.FLOAT,
           defaultValue: "",
-          validade: {
+          validate: {
             isFloat: {
-              msg: "Peso precisa ser um número inteiro ou de ponto flutuante.",
+              msg: "Peso precisa ser um número inteiro ou de ponto flutuante",
             },
           },
         },
         altura: {
           type: Sequelize.FLOAT,
           defaultValue: "",
-          validade: {
+          validate: {
             isFloat: {
-              msg: "Altura precisa ser um número inteiro ou de ponto flutuante.",
+              msg: "Altura precisa ser um número inteiro ou de ponto flutuante",
             },
           },
         },
@@ -69,5 +69,9 @@ export default class Aluno extends Model {
       }
     );
     return this;
+  }
+
+  static associate(models) {
+    this.hasMany(models.Foto, { foreignKey: "aluno_id" });
   }
 }
