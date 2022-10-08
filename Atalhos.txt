@@ -14,7 +14,7 @@ npm i bcryptjs
 
 
 DIO - Linkedin
-Digital Innovation One Fanpage
+	
 
 
 MONGO_DB:
@@ -25,12 +25,12 @@ mongodb+srv://andersonsantos:QUcBNED5YDhnE78A@cursojs-01.ik6knq4.mongodb.net/?re
 https://github.com/luizomf/curso-js/tree/master/projetoagenda
 
 
-Em 2021 decidida a realizar minha transição de carreira para a área de tecnologia, 
-fiz cursos voltados para a programaço com foco em Front-End utilizando as linguagens 
+Em 2022 decidida a realizar minha transição de carreira para a área de tecnologia, 
+fiz cursos voltados para a programação com foco em Front-End utilizando as linguagens 
 HTML5, CSS3 e JavaScript, além de ferramentas como Git e Github.
 
 Procuro ingressar na área de tecnologia a partir do cargo de Front-end Júnior e busco, 
-através deste novo desafio, me desenvolver profissionalmente, pôr em prática 
+através deste novo desafio, me desenvolver profissionalmente e pôr em prática 
 o que venho aprendendo e estudando, a fim de contribuir ativamente com o 
 desenvolvimento da empresa.
 
@@ -121,17 +121,24 @@ git add . ( )
 git commit -am 'Commit inicial' ( COMITA OS ARQUIVOS '' NOME DO ARQUIVO
 
 
+
+/////////////////////////*** RESUME ***\\\\\\\\\\\\\\\\\\\\\\\\\ 
+
 Primeiros passos para desenvolvimento web
 
 Introdução a criação de websites com HTML5 e CSS3
 
 JavaScript ( avançado )
 
+Introdução prática ao Figma
+
 Programação para internet com JavaScript
 
 Introdução ao Git e ao GitHub
 
 JavaScript lógica de programação
+
+Estruturas de Repetição e Arrays em Java
 
 Funções, Arrays, Objetos e prototypes
 
@@ -144,6 +151,10 @@ Node.js, Npm, Express e MongoDB
 Fazendo o React com componets de classes ( básico )
 
 Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces
+
+MySQL
+
+React.js
 
 
 /////////////////////////*** MARIA_DB ***\\\\\\\\\\\\\\\\\\\\\\\\\
