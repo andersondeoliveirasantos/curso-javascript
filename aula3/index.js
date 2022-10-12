@@ -6,6 +6,7 @@ console.log('O professor é o Luiz Otávio Miranda.')
 console.log('Estou adorando o novo curso.')
 console.log('Mais um dia de estudo.')
 console.log('Mais um avanço.')
+
 // Comment
 console.log('Mais um aprendizado.')
 console.log('É fácil de aprender')
@@ -20,7 +21,9 @@ console.log(
 )
 console.log('Anderson de Oliveira Santos ou Son !!!')
 console.log('Mais um dia chega ao final !!!')
+
 // Fazeu um anotação para lembrete !!!
+
 // Tudo que está como comentário, será ignorado e não aparecerá na página ...
 console.log('Hello World')
 console.log('Linha 01')
