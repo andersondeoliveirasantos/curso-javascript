@@ -27,8 +27,10 @@ function zeroAEsquerda(num) {
 function formataData(data) {
   const dia = zeroAEsquerda(data.getDate())
   const mes = zeroAEsquerda(data.getMonth() + 1)
+
   const ano = zeroAEsquerda(data.getFullYear())
   const hora = zeroAEsquerda(data.getHours())
+
   const minuto = zeroAEsquerda(data.getMinutes())
   const segundos = zeroAEsquerda(data.getSeconds())
 
