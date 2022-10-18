@@ -89,4 +89,23 @@
 
 .contact-form .form-grid {
   border: nome;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+.form-group {
+  flex: 1 1 320px;
+}
+
+.form-group label {
+  display: block;
+}
+
+.form-group input, .form-group textarea {
+  border: none;
+  background: var(--white-color);
+  padding: 1.5rem 2rem;
+  width: 100%;
 }
