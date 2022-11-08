@@ -64,13 +64,21 @@ func3()
 /*
 const g2 = geradora2()
 console.log(g2.next().value)
+
 console.log(g2.next().value)
+
 console.log(g2.next().value)
+
 console.log(g2.next().value)
+
 console.log(g2.next().value)
+
 console.log(g2.next().value)
+
 console.log(g2.next().value)
+
 console.log(g2.next().value)
+
 console.log(g2.next().value)
 */
 
