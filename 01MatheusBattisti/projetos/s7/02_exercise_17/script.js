@@ -5,3 +5,5 @@ function printAge(age) {
 printAge(41)
 printAge(06)
 printAge(36)
+
+/* ************************************************* */
