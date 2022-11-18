@@ -11,6 +11,6 @@ let additional = {
 
 console.log(car)
 
-object.assing(car, additional)
+Object.assign(car, additional)
 
 console.log(car)
