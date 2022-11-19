@@ -1,22 +1,21 @@
-let person = {
-  "name": "Anderson",
-  "age": 41,
-  "position": "Developer",
-  "hobbies": ["Video-game", "Reading", "Run"],
+function printEven (number) {
+  for(let i = number; i >= 0; i--)
+    if(i % 2 == 0) {
+      console.log(i)
+    }
 }
 
-let personText = JSON.stringify(person)
+printEven(15)
+printEven(8)
+printEven(18)
 
-console.log(personText)
+/* ************************************* */
 
-console.log('break')
+function printOdd (number2) {
+  for(let p = number2; p >= 0; p--)
+    if(p % 2 == 1) {
+      console.log(p)
+    }
+}
 
-/* *************************************** */
-
-let personJSON = JSON.parse(personText)
-
-console.log(personJSON)
-
-console.log('break')
-
-console.log(personJSON.hobbies[0])
+printOdd(10)
