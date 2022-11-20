@@ -1,16 +1,22 @@
-const person = {
-  hands: 2
+let dog = {
+  paws: 4,
+  breed: 'NDR', // No defined race
+  barks: function() {
+    console.log('Au Au ...')
+  }
 }
 
-// console.log(Object.getPrototypeOf(person))
-// console.log(Object.getPrototypeOf(person) === Object.prototype)
+let labrador = Object.create(dog)
 
-// console.log(person.hasOwnProperty('hands'))
+labrador.barks()
 
-const newPerson = Object.create(person)
+labrador.breed = 'Labrador'
 
-console.log(newPerson.hands)
+console.log(labrador.breed)
+console.log(dog.breed)
 
-console.log(newPerson.hasOwnProperty('hands'))
+let germanShepherd = Object.create(dog)
 
-console.log(Object.getPrototypeOf(newPerson) === person)
+germanShepherd.breed = 'German Shephers'
+
+console.log(germanShepherd)
