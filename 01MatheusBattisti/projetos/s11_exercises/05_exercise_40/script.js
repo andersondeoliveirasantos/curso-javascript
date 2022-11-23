@@ -4,11 +4,11 @@ class Account {
     this.savingsAccount = savingsAccount
     this.fees = fees
   }
-  deposit(value) {
+  deposit(value) { // Depósito
     this.currentAccount += value
   }
 
-  withdraw(value) {
+  withdraw(value) { // Saque
     this.currentAccount -= value
   }
 
