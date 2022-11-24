@@ -1,17 +1,47 @@
-const day = /\d\d/
+const scoreRegex = /./ // Ponto regex
 
-console.log(day.test('2019'))
-console.log(day.test('2019') && '2019'.length == 2) // More specific
+console.log('.')
+console.log(scoreRegex.test('asd'))
+console.log(scoreRegex.test(' '))
+console.log(scoreRegex.test('123'))
+console.log(scoreRegex.test('123sad'))
 
-console.log(day.test('asd'))
+/* ***************************************** */
 
-console.log(day.test('05'))
-console.log(day.test('05') && '05'.length == 2) // More specific
+const dRegex = /\d/ // [ 0 - 9 ]
 
-console.log(day.test('asd12'))
+console.log('d')
+console.log(dRegex.test('asd'))
+console.log(dRegex.test(' '))
+console.log(dRegex.test('123'))
+console.log(dRegex.test('123sad'))
 
-const threeLetterWords = /\w\w\w/
+/* ***************************************** */
 
-console.log(threeLetterWords.test('asd'))
-console.log(threeLetterWords.test('asdd'))
-console.log(threeLetterWords.test('as'))
+const dRegex2 = /\D/ // [ 0 - 9 ]
+
+console.log('D')
+console.log(dRegex2.test('asd'))
+console.log(dRegex2.test(' '))
+console.log(dRegex2.test('123'))
+console.log(dRegex2.test('123sad'))
+
+/* ***************************************** */
+
+const sRegex = /\s/ // [ 0 - 9 ]
+
+console.log('s')
+console.log(sRegex.test('asd'))
+console.log(sRegex.test(' '))
+console.log(sRegex.test('123'))
+console.log(sRegex.test('123sad'))
+
+/* ***************************************** */
+
+const wRegex = /\w/ // [ 0 - 9 ]
+
+console.log('w')
+console.log(wRegex.test('asd'))
+console.log(wRegex.test(' '))
+console.log(wRegex.test('123'))
+console.log(wRegex.test('123sad'))
