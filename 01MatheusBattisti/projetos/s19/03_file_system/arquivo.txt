@@ -1,1 +1,1 @@
-Algum texto !!!
+Texto por write file
