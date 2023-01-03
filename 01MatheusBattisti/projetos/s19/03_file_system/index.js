@@ -15,3 +15,4 @@ writeFile('arquivo.txt', 'Texto por write file', (error) =>  {
     console.log('Escreveu com sucesso !!!');
   }
   });
+  
